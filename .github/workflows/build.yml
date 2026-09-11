@@ -3,9 +3,9 @@ name: Build and validate skill
 on:
   push:
     branches: [main]
-    paths: ['data/**', 'scripts/**', '.github/workflows/build.yml']
+    paths: ['data/**', 'scripts/**', 'tests/**', '.bootstrap/**', '.github/workflows/build.yml']
   pull_request:
-    paths: ['data/**', 'scripts/**', 'references/**', 'examples/**', 'SKILL.md']
+    paths: ['data/**', 'scripts/**', 'tests/**', 'references/**', 'examples/**', 'SKILL.md', '.github/workflows/build.yml']
   workflow_dispatch:
 
 permissions:
@@ -22,20 +22,84 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v4
-        with:
-          persist-credentials: true
-      - name: Build and validate when the source set is complete
-        if: hashFiles('data/release.json') != ''
+      - name: Expand checksum-verified initial sources
+        if: hashFiles('.bootstrap/manifest.json') != ''
+        run: |
+          python3 - <<'PY'
+          import base64, hashlib, json, lzma
+          from pathlib import Path, PurePosixPath
+          root = Path.cwd().resolve()
+          manifest = json.loads(Path('.bootstrap/manifest.json').read_text())
+          parts = []
+          for item in manifest['parts']:
+              path = PurePosixPath(item['path'])
+              if path.is_absolute() or '..' in path.parts or path.parts[0] != '.bootstrap':
+                  raise ValueError('Invalid bootstrap part path')
+              content = Path(path).read_bytes()
+              if hashlib.sha256(content).hexdigest() != item['sha256']:
+                  raise ValueError('Part checksum mismatch: ' + str(path))
+              parts.append(content)
+          archive = base64.b64decode(b''.join(parts), validate=True)
+          if hashlib.sha256(archive).hexdigest() != manifest['sha256']:
+              raise ValueError('Archive checksum mismatch')
+          files = json.loads(lzma.decompress(archive))
+          for relative, content in files.items():
+              path = PurePosixPath(relative)
+              if path.is_absolute() or '..' in path.parts or path.parts[0] not in {'data', 'scripts', 'tests'}:
+                  raise ValueError('Unsafe source path: ' + relative)
+              target = root / path
+              if not target.resolve().is_relative_to(root):
+                  raise ValueError('Source escapes repository')
+              target.parent.mkdir(parents=True, exist_ok=True)
+              target.write_text(content, encoding='utf-8')
+          print('Verified and expanded', len(files), 'canonical source files')
+          PY
+      - name: Build and validate documentation
         run: |
           python3 scripts/build.py
           python3 scripts/validate.py
-      - name: Publish generated documentation
-        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main' && hashFiles('data/release.json') != ''
+      - name: Publish expanded sources and remove bootstrap
+        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main' && hashFiles('.bootstrap/manifest.json') != ''
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add SKILL.md README.md references examples docs assets catalog.json
+          git add data scripts tests SKILL.md README.md references examples docs assets catalog.json NOTICE.md CONTRIBUTING.md .gitignore
+          git rm -r --ignore-unmatch .bootstrap
+          git commit -m 'feat: publish 276 pattern examples and language guides [skip ci]'
+          git push origin HEAD:main
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
+      - name: Select Rust 1.70 minimum supported toolchain
+        run: |
+          rustup toolchain install 1.70.0 --profile minimal --no-self-update
+          rustup default 1.70.0
+      - name: Compile and execute C# and Rust examples
+        run: python3 scripts/run_examples.py --languages csharp,rust --require-runtimes --workers 2 --record data/verification.json
+      - name: Rebuild with actual verification results
+        run: |
+          python3 scripts/build.py
+          python3 scripts/validate.py
+      - name: Publish generated documentation and evidence
+        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/verification.json SKILL.md README.md references examples docs assets catalog.json NOTICE.md CONTRIBUTING.md .gitignore
           if ! git diff --cached --quiet; then
-            git commit -m 'docs: rebuild language guides and runnable examples [skip ci]'
+            git commit -m 'test: verify C# and Rust examples [skip ci]'
             git push origin HEAD:main
           fi
+      - name: Package validated skill
+        run: python3 scripts/package.py --output dist
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: verification-evidence
+          path: |
+            data/verification.json
+            docs/VERIFICATION.md
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ric-design-patterns-skill
+          path: dist/*
