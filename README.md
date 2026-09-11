@@ -6,6 +6,8 @@
 <p align="center"><strong>让模式服务于设计，而不是让设计迁就模式。</strong></p>
 <p align="center">GoF 23 · 12 languages · 276 examples · Progressive disclosure</p>
 <p align="center">
+  <a href="#快速安装">快速安装</a> ·
+  <a href="#使用方式">使用方式</a> ·
   <a href="SKILL.md">Skill 入口</a> ·
   <a href="references/typescript/README.md">开始选型</a> ·
   <a href="docs/VERIFICATION.md">验证记录</a> ·
@@ -21,6 +23,40 @@
 | 每种语言都有 23 项场景与横向对比 | 每个模式都有完整源码、角色映射与运行命令 | 来源分层、源码哈希、编译/运行记录 |
 | 总是比较“不用模式”的简单方案 | 不把 Java 类层次硬搬到 Go / Rust | 已验证与待验证明确区分 |
 
+## 快速安装
+
+在项目根目录执行（需先安装 Node.js、npm/npx 与 Git）：
+
+```sh
+npx skills add lichong-a/ric-design-patterns-skill
+```
+
+按提示选择目标 Agent 和安装方式，默认安装到当前项目。需要在多个项目中复用时，添加 `--global`。无需先手动克隆仓库。
+
+<details>
+<summary><strong>全局安装、指定 Agent 与管理命令</strong></summary>
+
+```sh
+# 全局安装，在多个项目中复用
+npx skills add lichong-a/ric-design-patterns-skill --global
+
+# 指定 Skill 和 Agent，以 Claude Code 为例（跳过确认）
+npx skills add lichong-a/ric-design-patterns-skill --skill ric-design-patterns-skill --agent claude-code --yes
+
+# 安装前查看仓库中可用的 Skill，不执行安装
+npx skills add lichong-a/ric-design-patterns-skill --list
+
+# 查看已安装的 Skill；只查看全局安装可添加 --global
+npx skills list
+
+# 更新本 Skill
+npx skills update ric-design-patterns-skill
+```
+
+`--agent` 指定安装目标，`--skill` 指定技能名称，`--yes` 跳过确认提示。可将 `--global` 与指定 Agent 的命令组合使用。参数与支持的 Agent 以 [Skills CLI 官方文档](https://github.com/vercel-labs/skills#install-a-skill) 为准。
+
+</details>
+
 ## 三层导航，只读需要的内容
 
 <img src="assets/navigation.svg" alt="SKILL.md 路由到语言选型页，再到语言与模式详页；已知模式可直接跳转" width="100%" />
@@ -35,24 +71,35 @@
 
 **覆盖：** 创建型 5 · 结构型 7 · 行为型 11。参考站的 22 项目录之外，单独补充解释器；JavaScript、Kotlin 为附加语言。范围是 **GoF 23**，不是所有架构、并发与分布式模式的全集。
 
-## 开始使用
+## 使用方式
+
+安装后，在所选 Agent 中点名使用 `ric-design-patterns-skill`，并提供 **语言 / 版本 / 当前问题 / 变化点 / 限制条件**。具体技能加载方式以宿主为准。
+
+**选型与实现**
+
+> 使用 ric-design-patterns-skill。我的 TypeScript 价格规则需要运行时替换，订单状态又会随事件变化。比较策略、状态和模板方法，先给不使用模式的最简单方案，再给推荐实现与测试。
+
+**代码审查与重构**
+
+> 使用 ric-design-patterns-skill 审查下面的 Python 代码。判断这些包装类更符合装饰还是代理，指出实际问题、替代方案和测试要点，不要为了套用模式而增加抽象。
+
+纯阅读与选型无需安装 12 套工具链；运行某个示例时，只需对应语言环境。
+
+<details>
+<summary><strong>手动安装、浏览源码与运行示例</strong></summary>
 
 ```sh
 git clone https://github.com/lichong-a/ric-design-patterns-skill.git
-```
+cd ric-design-patterns-skill
 
-将整个 `ric-design-patterns-skill` 目录放入你的 Agent Skills 宿主所指定的技能目录，入口为 `SKILL.md`；不同宿主的安装路径/启用方式不同，不只复制入口文件。纯阅读与选型无需安装 12 套工具链，运行某个示例时只需对应语言环境。
-
-把真实约束交给 Agent，而不是只说一个模式名：
-
-> 使用 ric-design-patterns-skill。我的 TypeScript 价格规则需要运行时替换，订单状态又会随事件变化。比较策略、状态和模板方法，先给最简单方案，再给实现与测试。
-
-也可以直接定位：
-
-```sh
+# 在仓库根目录执行
 python3 scripts/lookup.py --language rust --query "策略"
 python3 scripts/run_examples.py --languages python --require-runtimes
 ```
+
+手动安装时，将整个 `ric-design-patterns-skill` 目录放入宿主指定的技能目录，保留 `references/`、`examples/` 等相对路径，不要只复制 `SKILL.md`。上面的查询与校验脚本是可选开发工具，不是使用 Skill 的前置步骤。
+
+</details>
 
 ## 看一眼，再决定是否深入
 
