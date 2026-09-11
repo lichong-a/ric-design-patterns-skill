@@ -1,0 +1,41 @@
+name: Build and validate skill
+
+on:
+  push:
+    branches: [main]
+    paths: ['data/**', 'scripts/**', '.github/workflows/build.yml']
+  pull_request:
+    paths: ['data/**', 'scripts/**', 'references/**', 'examples/**', 'SKILL.md']
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: skill-build-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Build and validate when the source set is complete
+        if: hashFiles('data/release.json') != ''
+        run: |
+          python3 scripts/build.py
+          python3 scripts/validate.py
+      - name: Publish generated documentation
+        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main' && hashFiles('data/release.json') != ''
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add SKILL.md README.md references examples docs assets catalog.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'docs: rebuild language guides and runnable examples [skip ci]'
+            git push origin HEAD:main
+          fi
