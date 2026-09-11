@@ -1,0 +1,1 @@
+# ric-design-patterns-skill
