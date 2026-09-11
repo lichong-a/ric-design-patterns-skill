@@ -1,0 +1,366 @@
+[
+  {
+    "slug": "java",
+    "name": "Java",
+    "file": "Main.java",
+    "fence": "java",
+    "target": "Java 17（通过 --release 17 约束）",
+    "aliases": [
+      "java",
+      "jvm"
+    ],
+    "notes": [
+      "接口与抽象类保留经典 GoF 结构；单操作变化点优先比较 java.util.function。",
+      "record、List.copyOf 与不可变字符串不能自动深复制任意对象图；资源所有权与线程安全单独设计。",
+      "非继承变化优先构造注入；单例示例使用 enum，但不能替代隔离良好的依赖注入。"
+    ],
+    "sources": [
+      [
+        "Java 函数式接口",
+        "https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/function/package-summary.html"
+      ],
+      [
+        "JLS 类初始化",
+        "https://docs.oracle.com/javase/specs/jls/se17/html/jls-12.html#jls-12.4.2"
+      ]
+    ],
+    "upstream_index": "https://refactoringguru.cn/design-patterns/java",
+    "sample": "state",
+    "origin": "reference-language"
+  },
+  {
+    "slug": "csharp",
+    "name": "C#",
+    "file": "Program.cs",
+    "fence": "csharp",
+    "target": "C# 12 / .NET 8",
+    "aliases": [
+      "c#",
+      "csharp",
+      "cs",
+      "dotnet",
+      ".net"
+    ],
+    "notes": [
+      "接口、委托 Func/Action 与 event 是常用组合手段；不要为单一回调强造类层次。",
+      "Lazy<T> 的初始化安全不等于 T 的可变状态安全；IReadOnlyList 也不是任意对象图的深不可变证明。",
+      "可空引用注解属于静态分析，公开 API 仍需参数校验；订阅和 IDisposable 资源必须明确释放。"
+    ],
+    "sources": [
+      [
+        "C# 接口",
+        "https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/types/interfaces"
+      ],
+      [
+        "Lazy<T>",
+        "https://learn.microsoft.com/en-us/dotnet/api/system.lazy-1?view=net-8.0"
+      ]
+    ],
+    "upstream_index": "https://refactoringguru.cn/design-patterns/csharp",
+    "sample": "singleton",
+    "origin": "reference-language"
+  },
+  {
+    "slug": "cpp",
+    "name": "C++",
+    "file": "main.cpp",
+    "fence": "cpp",
+    "target": "C++17",
+    "aliases": [
+      "c++",
+      "cpp",
+      "cxx",
+      "cc"
+    ],
+    "notes": [
+      "默认采用值语义/RAII；唯一拥有用 unique_ptr，需要共享身份再选择 shared_ptr。",
+      "多态删除需正确析构契约；引用与借用迭代器必须比其使用者活得久。",
+      "运行时 virtual/std::function 与编译时模板都是选择，按绑定时机和复杂度取舍，而非照搬 Java。"
+    ],
+    "sources": [
+      [
+        "C++ Core Guidelines：RAII/所有权",
+        "https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#Rr-raii"
+      ],
+      [
+        "C++ 工作草案：块作用域声明",
+        "https://eel.is/c++draft/stmt.dcl"
+      ]
+    ],
+    "upstream_index": "https://refactoringguru.cn/design-patterns/cpp",
+    "sample": "visitor",
+    "origin": "reference-language"
+  },
+  {
+    "slug": "go",
+    "name": "Go",
+    "file": "main.go",
+    "fence": "go",
+    "target": "Go 1.20 语法/API 目标；示例不依赖 1.23 range 函数",
+    "aliases": [
+      "go",
+      "golang"
+    ],
+    "notes": [
+      "没有类继承。工厂方法、模板方法明确标注为接口/组合式意图移植；嵌入不等于虚方法继承。",
+      "小接口、函数值和显式 error 优先；复制 slice 描述符不会复制底层数组。",
+      "map/回调示例默认单 goroutine；sync.Once 只处理初始化，接口中的 typed nil 需要特别留意。"
+    ],
+    "sources": [
+      [
+        "Effective Go",
+        "https://go.dev/doc/effective_go#interfaces_and_types"
+      ],
+      [
+        "sync.Once",
+        "https://pkg.go.dev/sync#Once"
+      ],
+      [
+        "Go 语言规范",
+        "https://go.dev/ref/spec"
+      ]
+    ],
+    "upstream_index": "https://refactoringguru.cn/design-patterns/go",
+    "sample": "factory-method",
+    "origin": "reference-language"
+  },
+  {
+    "slug": "rust",
+    "name": "Rust",
+    "file": "main.rs",
+    "fence": "rust",
+    "target": "Rust 1.70 / edition 2021",
+    "aliases": [
+      "rust",
+      "rs"
+    ],
+    "notes": [
+      "先画所有权关系，再选择 trait/泛型/enum；不能默认把所有关系塞进 Rc<RefCell<T>>。",
+      "Box 表达唯一拥有，Rc 是单线程共享；Arc 只共享引用计数，不自动保护任意内部可变状态。",
+      "Clone 的复制深度取决于字段；&mut 可在编译期排除一类交错访问；无类继承模式须显式说明适配。"
+    ],
+    "sources": [
+      [
+        "Rust Book：trait objects",
+        "https://doc.rust-lang.org/book/ch18-02-trait-objects.html"
+      ],
+      [
+        "OnceLock",
+        "https://doc.rust-lang.org/std/sync/struct.OnceLock.html"
+      ]
+    ],
+    "upstream_index": "https://refactoringguru.cn/design-patterns/rust",
+    "sample": "abstract-factory",
+    "origin": "reference-language"
+  },
+  {
+    "slug": "python",
+    "name": "Python",
+    "file": "main.py",
+    "fence": "python",
+    "target": "Python 3.11+ 语法/API 目标",
+    "aliases": [
+      "python",
+      "py",
+      "python3"
+    ],
+    "notes": [
+      "Protocol/鸭子类型、函数与生成器通常比成套抽象类更自然；需要继承骨架时才用 ABC。",
+      "类型注解不自动做运行时验证；单例模块是作用域约定，不是分布式唯一性。",
+      "copy/deepcopy、闭包捕获、订阅引用和可变默认值需要独立检查；不要把 GIL 当线程安全设计。"
+    ],
+    "sources": [
+      [
+        "typing.Protocol",
+        "https://docs.python.org/3/library/typing.html#typing.Protocol"
+      ],
+      [
+        "copy 与 deepcopy",
+        "https://docs.python.org/3/library/copy.html"
+      ]
+    ],
+    "upstream_index": "https://refactoringguru.cn/design-patterns/python",
+    "sample": "iterator",
+    "origin": "reference-language"
+  },
+  {
+    "slug": "typescript",
+    "name": "TypeScript",
+    "file": "main.ts",
+    "fence": "typescript",
+    "target": "TypeScript 5.x strict / ES2022 / Node.js 18+ 目标",
+    "aliases": [
+      "typescript",
+      "ts"
+    ],
+    "notes": [
+      "结构类型接口与函数类型降低样板；interface/private/readonly 类型修饰不都产生运行时保护。",
+      "真正的运行时私有字段使用 #；Object.freeze 是浅冻结，跨边界输入仍需运行时校验。",
+      "本包用 tsc --strict 编译后运行；ES module 与异步 Promise 错误应按宿主定义，观察者示例为同步。"
+    ],
+    "sources": [
+      [
+        "TypeScript classes",
+        "https://www.typescriptlang.org/docs/handbook/2/classes.html"
+      ],
+      [
+        "JavaScript 迭代协议",
+        "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols"
+      ]
+    ],
+    "upstream_index": "https://refactoringguru.cn/design-patterns/typescript",
+    "sample": "strategy",
+    "origin": "reference-language"
+  },
+  {
+    "slug": "javascript",
+    "name": "JavaScript",
+    "file": "main.mjs",
+    "fence": "javascript",
+    "target": "ES2022 / Node.js 18+ 目标",
+    "aliases": [
+      "javascript",
+      "js",
+      "node",
+      "nodejs",
+      "ecmascript"
+    ],
+    "notes": [
+      "此组由本包原创 TypeScript 示例编译去类型得到，并补充 JavaScript 语义说明，不声称来自参考站独立语言目录。",
+      "接口由鸭子类型/测试表达；TS private 被擦除，# 私有字段仍存在，二者不能混淆。",
+      "原型链不是 GoF 原型模式；内建 Proxy 不是所有 GoF 代理的同义词；异步监听需另外处理 Promise。"
+    ],
+    "sources": [
+      [
+        "ECMAScript 标准入口",
+        "https://ecma-international.org/publications-and-standards/standards/ecma-262/"
+      ],
+      [
+        "JavaScript 迭代协议",
+        "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols"
+      ]
+    ],
+    "upstream_index": null,
+    "sample": null,
+    "origin": "supplement"
+  },
+  {
+    "slug": "php",
+    "name": "PHP",
+    "file": "main.php",
+    "fence": "php",
+    "target": "PHP 8.2+（readonly class）",
+    "aliases": [
+      "php"
+    ],
+    "notes": [
+      "采用 strict_types、接口、Closure 与显式异常；PHPDoc 的泛型数组标注不等于运行时元素验证。",
+      "clone 默认浅复制；数组写时复制不克隆内部对象；readonly 引用不会使所指对象自动不可变。",
+      "单例/缓存必须说明请求、worker 与长驻进程边界；不得宣称多个 worker 共享一个普通静态实例。"
+    ],
+    "sources": [
+      [
+        "PHP interfaces",
+        "https://www.php.net/manual/en/language.oop5.interfaces.php"
+      ],
+      [
+        "PHP cloning",
+        "https://www.php.net/manual/en/language.oop5.cloning.php"
+      ]
+    ],
+    "upstream_index": "https://refactoringguru.cn/design-patterns/php",
+    "sample": "prototype",
+    "origin": "reference-language"
+  },
+  {
+    "slug": "ruby",
+    "name": "Ruby",
+    "file": "main.rb",
+    "fence": "ruby",
+    "target": "Ruby 3.1+ 目标",
+    "aliases": [
+      "ruby",
+      "rb"
+    ],
+    "notes": [
+      "鸭子类型、block/lambda、Enumerable 与组合通常更惯用；协议契约依赖测试而非大量空接口。",
+      "dup/clone 与 freeze 都需要解释实际深度；字符串也是可变对象，复制数组并不总够。",
+      "没有原生 final；闭包和订阅可能保活对象；不要把某个实现的线程执行特性当所有 Ruby 的保证。"
+    ],
+    "sources": [
+      [
+        "Ruby Enumerable",
+        "https://docs.ruby-lang.org/en/master/Enumerable.html"
+      ],
+      [
+        "Ruby Singleton",
+        "https://docs.ruby-lang.org/en/master/Singleton.html"
+      ]
+    ],
+    "upstream_index": "https://refactoringguru.cn/design-patterns/ruby",
+    "sample": "decorator",
+    "origin": "reference-language"
+  },
+  {
+    "slug": "swift",
+    "name": "Swift",
+    "file": "main.swift",
+    "fence": "swift",
+    "target": "Swift 6 语言模式",
+    "aliases": [
+      "swift"
+    ],
+    "notes": [
+      "协议/struct 值语义优先；必须有身份和继承需求时再选择 class，any existential 与泛型绑定时机不同。",
+      "Array/String 是值语义，但数组中的 class 实例仍可共享；ARC 闭包引用环需要 weak 或显式生命周期。",
+      "以 Swift 6 模式编译；同步示例不擅自声明 Sendable，真实 UI/并发流程应明确 @MainActor 或 actor 隔离。"
+    ],
+    "sources": [
+      [
+        "Swift 官方协议章节源文",
+        "https://raw.githubusercontent.com/swiftlang/swift-book/main/TSPL.docc/LanguageGuide/Protocols.md"
+      ],
+      [
+        "Swift 官方 ARC 章节源文",
+        "https://raw.githubusercontent.com/swiftlang/swift-book/main/TSPL.docc/LanguageGuide/AutomaticReferenceCounting.md"
+      ]
+    ],
+    "upstream_index": "https://refactoringguru.cn/design-patterns/swift",
+    "sample": "mediator",
+    "origin": "reference-language"
+  },
+  {
+    "slug": "kotlin",
+    "name": "Kotlin",
+    "file": "Main.kt",
+    "fence": "kotlin",
+    "target": "Kotlin 1.9 / JVM target 17",
+    "aliases": [
+      "kotlin",
+      "kt",
+      "kts"
+    ],
+    "notes": [
+      "函数类型、object、by 委托和默认 final 能减少样板；小配置优先具名参数与默认值。",
+      "data class copy 默认浅复制；List 是只读接口不是所有底层实现都深不可变。",
+      "本组目标为 JVM，不把平台特有的初始化/并发保证直接推广到所有 Kotlin 平台；协程取消另行设计。"
+    ],
+    "sources": [
+      [
+        "Kotlin delegation",
+        "https://kotlinlang.org/docs/delegation.html"
+      ],
+      [
+        "Kotlin object declarations",
+        "https://kotlinlang.org/docs/object-declarations.html"
+      ],
+      [
+        "Kotlin delegated properties / lazy",
+        "https://kotlinlang.org/docs/delegated-properties.html"
+      ]
+    ],
+    "upstream_index": null,
+    "sample": null,
+    "origin": "supplement"
+  }
+]

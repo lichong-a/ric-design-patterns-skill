@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="460" viewBox="0 0 1280 460" role="img" aria-labelledby="title desc">
+<title id="title">ric design patterns skill</title><desc id="desc">Design patterns. Decisions included. 23 patterns, 12 languages and 276 examples in a progressive disclosure skill.</desc>
+<defs>
+<linearGradient id="bg" x2="1" y2="1"><stop stop-color="#111827"/><stop offset="1" stop-color="#111c2f"/></linearGradient>
+<linearGradient id="accent" x2="1" y2="1"><stop stop-color="#83f2cf"/><stop offset="1" stop-color="#77bbef"/></linearGradient>
+<pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#dce6f4" stroke-opacity=".045"/></pattern>
+</defs>
+<rect width="1280" height="460" rx="24" fill="url(#bg)"/>
+<rect width="1280" height="460" rx="24" fill="url(#grid)"/>
+<g font-family="Arial, Helvetica, sans-serif">
+<rect x="54" y="44" width="44" height="44" rx="12" fill="url(#accent)"/>
+<path d="M65 73V58H76M77 73V64H88" fill="none" stroke="#12283a" stroke-width="3" stroke-linecap="round"/>
+<text x="112" y="63" fill="#eff5ff" font-size="17" font-weight="700" letter-spacing="1">ric</text>
+<text x="112" y="82" fill="#91a4bd" font-size="13" letter-spacing="1.8">DESIGN PATTERNS SKILL</text>
+<text x="54" y="169" fill="#f6f8fc" font-size="57" font-weight="700" letter-spacing="-2">Design patterns.</text>
+<text x="54" y="234" fill="#a6f1db" font-size="57" font-weight="700" letter-spacing="-2">Decisions included.</text>
+<text x="57" y="279" fill="#a6b5ca" font-size="19">Choose the right abstraction. Read only what you need.</text>
+<g font-size="14" fill="#d8e2f0">
+<rect x="54" y="327" width="145" height="39" rx="19.5" fill="#1c2b40" stroke="#30465d"/>
+<text x="76" y="352">23 GoF patterns</text>
+<rect x="211" y="327" width="135" height="39" rx="19.5" fill="#1c2b40" stroke="#30465d"/>
+<text x="233" y="352">12 languages</text>
+<rect x="358" y="327" width="145" height="39" rx="19.5" fill="#1c2b40" stroke="#30465d"/>
+<text x="379" y="352">276 examples</text>
+</g>
+<text x="57" y="414" fill="#69819d" font-size="12" letter-spacing="2.1">INTENT  /  TRADE-OFFS  /  CODE  /  VERIFICATION</text>
+<g transform="translate(838 86)">
+<rect x="0" y="0" width="310" height="64" rx="12" fill="#20364a" stroke="#76d9c4"/>
+<circle cx="29" cy="32" r="6" fill="#a6f1db"/><text x="47" y="38" fill="#e8fff6" font-size="16" font-weight="700">SKILL.md</text>
+<text x="270" y="38" fill="#91cdbf" font-size="13">01</text>
+<path d="M155 64V96H48V127M155 96H262V127" stroke="#507a8b" stroke-width="2" fill="none"/>
+<rect x="-21" y="127" width="138" height="59" rx="10" fill="#1c2b40" stroke="#49647e"/>
+<rect x="194" y="127" width="138" height="59" rx="10" fill="#1c2b40" stroke="#49647e"/>
+<text x="9" y="163" fill="#d3e2f3" font-size="16">Language</text>
+<text x="224" y="163" fill="#d3e2f3" font-size="16">Compare</text>
+<path d="M48 186V218H155V245M263 186V218H155" stroke="#507a8b" stroke-width="2" fill="none"/>
+<rect x="33" y="245" width="244" height="68" rx="12" fill="#20364a" stroke="#76d9c4"/>
+<text x="60" y="273" fill="#a6f1db" font-size="14" font-family="monospace">language / pattern</text>
+<text x="60" y="297" fill="#bdccdc" font-size="13">Intent + idiomatic code</text>
+</g>
+</g></svg>

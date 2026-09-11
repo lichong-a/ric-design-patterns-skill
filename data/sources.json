@@ -1,0 +1,446 @@
+{
+  "accessed_on": "2026-09-11",
+  "sources": [
+    {
+      "id": "user-catalog",
+      "kind": "user-input",
+      "url": "https://refactoringguru.cn/design-patterns/catalog",
+      "scope": "用户上传的目录链接；核验为 22 项目录，不含 Interpreter"
+    },
+    {
+      "id": "user-examples",
+      "kind": "user-input",
+      "url": "https://refactoringguru.cn/design-patterns/examples",
+      "scope": "用户上传的示例链接；核验 10 个语言入口"
+    },
+    {
+      "id": "gof-publisher",
+      "kind": "publisher",
+      "url": "https://www.informit.com/store/design-patterns-elements-of-reusable-object-oriented-9780321770462",
+      "scope": "GoF 原书的出版方目录：5 创建型、7 结构型、11 行为型，共 23 种"
+    },
+    {
+      "id": "skill-spec",
+      "kind": "specification",
+      "url": "https://agentskills.io/specification",
+      "scope": "frontmatter/目录/渐进式披露；参考建议不等于每个宿主已实测兼容"
+    },
+    {
+      "id": "skill-practices",
+      "kind": "specification",
+      "url": "https://agentskills.io/skill-creation/best-practices",
+      "scope": "轻量入口、按需引用、任务导向说明"
+    },
+    {
+      "id": "pattern-factory-method",
+      "kind": "concept-page",
+      "url": "https://refactoringguru.cn/design-patterns/factory-method",
+      "scope": "意图、结构、适用条件与模式关系；本项目独立组织中文工程说明，不复制原页全文"
+    },
+    {
+      "id": "pattern-abstract-factory",
+      "kind": "concept-page",
+      "url": "https://refactoringguru.cn/design-patterns/abstract-factory",
+      "scope": "意图、结构、适用条件与模式关系；本项目独立组织中文工程说明，不复制原页全文"
+    },
+    {
+      "id": "pattern-builder",
+      "kind": "concept-page",
+      "url": "https://refactoringguru.cn/design-patterns/builder",
+      "scope": "意图、结构、适用条件与模式关系；本项目独立组织中文工程说明，不复制原页全文"
+    },
+    {
+      "id": "pattern-prototype",
+      "kind": "concept-page",
+      "url": "https://refactoringguru.cn/design-patterns/prototype",
+      "scope": "意图、结构、适用条件与模式关系；本项目独立组织中文工程说明，不复制原页全文"
+    },
+    {
+      "id": "pattern-singleton",
+      "kind": "concept-page",
+      "url": "https://refactoringguru.cn/design-patterns/singleton",
+      "scope": "意图、结构、适用条件与模式关系；本项目独立组织中文工程说明，不复制原页全文"
+    },
+    {
+      "id": "pattern-adapter",
+      "kind": "concept-page",
+      "url": "https://refactoringguru.cn/design-patterns/adapter",
+      "scope": "意图、结构、适用条件与模式关系；本项目独立组织中文工程说明，不复制原页全文"
+    },
+    {
+      "id": "pattern-bridge",
+      "kind": "concept-page",
+      "url": "https://refactoringguru.cn/design-patterns/bridge",
+      "scope": "意图、结构、适用条件与模式关系；本项目独立组织中文工程说明，不复制原页全文"
+    },
+    {
+      "id": "pattern-composite",
+      "kind": "concept-page",
+      "url": "https://refactoringguru.cn/design-patterns/composite",
+      "scope": "意图、结构、适用条件与模式关系；本项目独立组织中文工程说明，不复制原页全文"
+    },
+    {
+      "id": "pattern-decorator",
+      "kind": "concept-page",
+      "url": "https://refactoringguru.cn/design-patterns/decorator",
+      "scope": "意图、结构、适用条件与模式关系；本项目独立组织中文工程说明，不复制原页全文"
+    },
+    {
+      "id": "pattern-facade",
+      "kind": "concept-page",
+      "url": "https://refactoringguru.cn/design-patterns/facade",
+      "scope": "意图、结构、适用条件与模式关系；本项目独立组织中文工程说明，不复制原页全文"
+    },
+    {
+      "id": "pattern-flyweight",
+      "kind": "concept-page",
+      "url": "https://refactoringguru.cn/design-patterns/flyweight",
+      "scope": "意图、结构、适用条件与模式关系；本项目独立组织中文工程说明，不复制原页全文"
+    },
+    {
+      "id": "pattern-proxy",
+      "kind": "concept-page",
+      "url": "https://refactoringguru.cn/design-patterns/proxy",
+      "scope": "意图、结构、适用条件与模式关系；本项目独立组织中文工程说明，不复制原页全文"
+    },
+    {
+      "id": "pattern-chain-of-responsibility",
+      "kind": "concept-page",
+      "url": "https://refactoringguru.cn/design-patterns/chain-of-responsibility",
+      "scope": "意图、结构、适用条件与模式关系；本项目独立组织中文工程说明，不复制原页全文"
+    },
+    {
+      "id": "pattern-command",
+      "kind": "concept-page",
+      "url": "https://refactoringguru.cn/design-patterns/command",
+      "scope": "意图、结构、适用条件与模式关系；本项目独立组织中文工程说明，不复制原页全文"
+    },
+    {
+      "id": "pattern-interpreter",
+      "kind": "supplement",
+      "url": "https://sourcemaking.com/design_patterns/interpreter",
+      "scope": "意图、结构、适用条件与模式关系；本项目独立组织中文工程说明，不复制原页全文"
+    },
+    {
+      "id": "pattern-iterator",
+      "kind": "concept-page",
+      "url": "https://refactoringguru.cn/design-patterns/iterator",
+      "scope": "意图、结构、适用条件与模式关系；本项目独立组织中文工程说明，不复制原页全文"
+    },
+    {
+      "id": "pattern-mediator",
+      "kind": "concept-page",
+      "url": "https://refactoringguru.cn/design-patterns/mediator",
+      "scope": "意图、结构、适用条件与模式关系；本项目独立组织中文工程说明，不复制原页全文"
+    },
+    {
+      "id": "pattern-memento",
+      "kind": "concept-page",
+      "url": "https://refactoringguru.cn/design-patterns/memento",
+      "scope": "意图、结构、适用条件与模式关系；本项目独立组织中文工程说明，不复制原页全文"
+    },
+    {
+      "id": "pattern-observer",
+      "kind": "concept-page",
+      "url": "https://refactoringguru.cn/design-patterns/observer",
+      "scope": "意图、结构、适用条件与模式关系；本项目独立组织中文工程说明，不复制原页全文"
+    },
+    {
+      "id": "pattern-state",
+      "kind": "concept-page",
+      "url": "https://refactoringguru.cn/design-patterns/state",
+      "scope": "意图、结构、适用条件与模式关系；本项目独立组织中文工程说明，不复制原页全文"
+    },
+    {
+      "id": "pattern-strategy",
+      "kind": "concept-page",
+      "url": "https://refactoringguru.cn/design-patterns/strategy",
+      "scope": "意图、结构、适用条件与模式关系；本项目独立组织中文工程说明，不复制原页全文"
+    },
+    {
+      "id": "pattern-template-method",
+      "kind": "concept-page",
+      "url": "https://refactoringguru.cn/design-patterns/template-method",
+      "scope": "意图、结构、适用条件与模式关系；本项目独立组织中文工程说明，不复制原页全文"
+    },
+    {
+      "id": "pattern-visitor",
+      "kind": "concept-page",
+      "url": "https://refactoringguru.cn/design-patterns/visitor",
+      "scope": "意图、结构、适用条件与模式关系；本项目独立组织中文工程说明，不复制原页全文"
+    },
+    {
+      "id": "index-java",
+      "kind": "language-index",
+      "url": "https://refactoringguru.cn/design-patterns/java",
+      "scope": "已核对语言目录，不表示该语言原站每个具体示例均逐行审计"
+    },
+    {
+      "id": "sample-java",
+      "kind": "example-sample",
+      "url": "https://refactoringguru.cn/design-patterns/state/java/example",
+      "scope": "实际打开的语言示例抽样；本项目代码为独立教学实现，不是复制该页"
+    },
+    {
+      "id": "official-java-1",
+      "kind": "language-authority",
+      "url": "https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/function/package-summary.html",
+      "scope": "Java 函数式接口"
+    },
+    {
+      "id": "official-java-2",
+      "kind": "language-authority",
+      "url": "https://docs.oracle.com/javase/specs/jls/se17/html/jls-12.html#jls-12.4.2",
+      "scope": "JLS 类初始化"
+    },
+    {
+      "id": "index-csharp",
+      "kind": "language-index",
+      "url": "https://refactoringguru.cn/design-patterns/csharp",
+      "scope": "已核对语言目录，不表示该语言原站每个具体示例均逐行审计"
+    },
+    {
+      "id": "sample-csharp",
+      "kind": "example-sample",
+      "url": "https://refactoringguru.cn/design-patterns/singleton/csharp/example",
+      "scope": "实际打开的语言示例抽样；本项目代码为独立教学实现，不是复制该页"
+    },
+    {
+      "id": "official-csharp-1",
+      "kind": "language-authority",
+      "url": "https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/types/interfaces",
+      "scope": "C# 接口"
+    },
+    {
+      "id": "official-csharp-2",
+      "kind": "language-authority",
+      "url": "https://learn.microsoft.com/en-us/dotnet/api/system.lazy-1?view=net-8.0",
+      "scope": "Lazy<T>"
+    },
+    {
+      "id": "index-cpp",
+      "kind": "language-index",
+      "url": "https://refactoringguru.cn/design-patterns/cpp",
+      "scope": "已核对语言目录，不表示该语言原站每个具体示例均逐行审计"
+    },
+    {
+      "id": "sample-cpp",
+      "kind": "example-sample",
+      "url": "https://refactoringguru.cn/design-patterns/visitor/cpp/example",
+      "scope": "实际打开的语言示例抽样；本项目代码为独立教学实现，不是复制该页"
+    },
+    {
+      "id": "official-cpp-1",
+      "kind": "language-authority",
+      "url": "https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#Rr-raii",
+      "scope": "C++ Core Guidelines：RAII/所有权"
+    },
+    {
+      "id": "official-cpp-2",
+      "kind": "language-authority",
+      "url": "https://eel.is/c++draft/stmt.dcl",
+      "scope": "C++ 工作草案：块作用域声明"
+    },
+    {
+      "id": "index-go",
+      "kind": "language-index",
+      "url": "https://refactoringguru.cn/design-patterns/go",
+      "scope": "已核对语言目录，不表示该语言原站每个具体示例均逐行审计"
+    },
+    {
+      "id": "sample-go",
+      "kind": "example-sample",
+      "url": "https://refactoringguru.cn/design-patterns/factory-method/go/example",
+      "scope": "实际打开的语言示例抽样；本项目代码为独立教学实现，不是复制该页"
+    },
+    {
+      "id": "official-go-1",
+      "kind": "language-authority",
+      "url": "https://go.dev/doc/effective_go#interfaces_and_types",
+      "scope": "Effective Go"
+    },
+    {
+      "id": "official-go-2",
+      "kind": "language-authority",
+      "url": "https://pkg.go.dev/sync#Once",
+      "scope": "sync.Once"
+    },
+    {
+      "id": "official-go-3",
+      "kind": "language-authority",
+      "url": "https://go.dev/ref/spec",
+      "scope": "Go 语言规范"
+    },
+    {
+      "id": "index-rust",
+      "kind": "language-index",
+      "url": "https://refactoringguru.cn/design-patterns/rust",
+      "scope": "已核对语言目录，不表示该语言原站每个具体示例均逐行审计"
+    },
+    {
+      "id": "sample-rust",
+      "kind": "example-sample",
+      "url": "https://refactoringguru.cn/design-patterns/abstract-factory/rust/example",
+      "scope": "实际打开的语言示例抽样；本项目代码为独立教学实现，不是复制该页"
+    },
+    {
+      "id": "official-rust-1",
+      "kind": "language-authority",
+      "url": "https://doc.rust-lang.org/book/ch18-02-trait-objects.html",
+      "scope": "Rust Book：trait objects"
+    },
+    {
+      "id": "official-rust-2",
+      "kind": "language-authority",
+      "url": "https://doc.rust-lang.org/std/sync/struct.OnceLock.html",
+      "scope": "OnceLock"
+    },
+    {
+      "id": "index-python",
+      "kind": "language-index",
+      "url": "https://refactoringguru.cn/design-patterns/python",
+      "scope": "已核对语言目录，不表示该语言原站每个具体示例均逐行审计"
+    },
+    {
+      "id": "sample-python",
+      "kind": "example-sample",
+      "url": "https://refactoringguru.cn/design-patterns/iterator/python/example",
+      "scope": "实际打开的语言示例抽样；本项目代码为独立教学实现，不是复制该页"
+    },
+    {
+      "id": "official-python-1",
+      "kind": "language-authority",
+      "url": "https://docs.python.org/3/library/typing.html#typing.Protocol",
+      "scope": "typing.Protocol"
+    },
+    {
+      "id": "official-python-2",
+      "kind": "language-authority",
+      "url": "https://docs.python.org/3/library/copy.html",
+      "scope": "copy 与 deepcopy"
+    },
+    {
+      "id": "index-typescript",
+      "kind": "language-index",
+      "url": "https://refactoringguru.cn/design-patterns/typescript",
+      "scope": "已核对语言目录，不表示该语言原站每个具体示例均逐行审计"
+    },
+    {
+      "id": "sample-typescript",
+      "kind": "example-sample",
+      "url": "https://refactoringguru.cn/design-patterns/strategy/typescript/example",
+      "scope": "实际打开的语言示例抽样；本项目代码为独立教学实现，不是复制该页"
+    },
+    {
+      "id": "official-typescript-1",
+      "kind": "language-authority",
+      "url": "https://www.typescriptlang.org/docs/handbook/2/classes.html",
+      "scope": "TypeScript classes"
+    },
+    {
+      "id": "official-typescript-2",
+      "kind": "language-authority",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols",
+      "scope": "JavaScript 迭代协议"
+    },
+    {
+      "id": "official-javascript-1",
+      "kind": "language-authority",
+      "url": "https://ecma-international.org/publications-and-standards/standards/ecma-262/",
+      "scope": "ECMAScript 标准入口"
+    },
+    {
+      "id": "index-php",
+      "kind": "language-index",
+      "url": "https://refactoringguru.cn/design-patterns/php",
+      "scope": "已核对语言目录，不表示该语言原站每个具体示例均逐行审计"
+    },
+    {
+      "id": "sample-php",
+      "kind": "example-sample",
+      "url": "https://refactoringguru.cn/design-patterns/prototype/php/example",
+      "scope": "实际打开的语言示例抽样；本项目代码为独立教学实现，不是复制该页"
+    },
+    {
+      "id": "official-php-1",
+      "kind": "language-authority",
+      "url": "https://www.php.net/manual/en/language.oop5.interfaces.php",
+      "scope": "PHP interfaces"
+    },
+    {
+      "id": "official-php-2",
+      "kind": "language-authority",
+      "url": "https://www.php.net/manual/en/language.oop5.cloning.php",
+      "scope": "PHP cloning"
+    },
+    {
+      "id": "index-ruby",
+      "kind": "language-index",
+      "url": "https://refactoringguru.cn/design-patterns/ruby",
+      "scope": "已核对语言目录，不表示该语言原站每个具体示例均逐行审计"
+    },
+    {
+      "id": "sample-ruby",
+      "kind": "example-sample",
+      "url": "https://refactoringguru.cn/design-patterns/decorator/ruby/example",
+      "scope": "实际打开的语言示例抽样；本项目代码为独立教学实现，不是复制该页"
+    },
+    {
+      "id": "official-ruby-1",
+      "kind": "language-authority",
+      "url": "https://docs.ruby-lang.org/en/master/Enumerable.html",
+      "scope": "Ruby Enumerable"
+    },
+    {
+      "id": "official-ruby-2",
+      "kind": "language-authority",
+      "url": "https://docs.ruby-lang.org/en/master/Singleton.html",
+      "scope": "Ruby Singleton"
+    },
+    {
+      "id": "index-swift",
+      "kind": "language-index",
+      "url": "https://refactoringguru.cn/design-patterns/swift",
+      "scope": "已核对语言目录，不表示该语言原站每个具体示例均逐行审计"
+    },
+    {
+      "id": "sample-swift",
+      "kind": "example-sample",
+      "url": "https://refactoringguru.cn/design-patterns/mediator/swift/example",
+      "scope": "实际打开的语言示例抽样；本项目代码为独立教学实现，不是复制该页"
+    },
+    {
+      "id": "official-swift-1",
+      "kind": "language-authority",
+      "url": "https://raw.githubusercontent.com/swiftlang/swift-book/main/TSPL.docc/LanguageGuide/Protocols.md",
+      "scope": "Swift 官方协议章节源文"
+    },
+    {
+      "id": "official-swift-2",
+      "kind": "language-authority",
+      "url": "https://raw.githubusercontent.com/swiftlang/swift-book/main/TSPL.docc/LanguageGuide/AutomaticReferenceCounting.md",
+      "scope": "Swift 官方 ARC 章节源文"
+    },
+    {
+      "id": "official-kotlin-1",
+      "kind": "language-authority",
+      "url": "https://kotlinlang.org/docs/delegation.html",
+      "scope": "Kotlin delegation"
+    },
+    {
+      "id": "official-kotlin-2",
+      "kind": "language-authority",
+      "url": "https://kotlinlang.org/docs/object-declarations.html",
+      "scope": "Kotlin object declarations"
+    },
+    {
+      "id": "official-kotlin-3",
+      "kind": "language-authority",
+      "url": "https://kotlinlang.org/docs/delegated-properties.html",
+      "scope": "Kotlin delegated properties / lazy"
+    }
+  ],
+  "scope": "GoF 23；非所有架构/并发/分布式模式的全集",
+  "coverage": "22 概念页 + 10 语言目录 + 10 具体代码页面抽样；原书目录与语言文档补充",
+  "original": "说明、决策表、源码、测试、SVG 均为本项目新编；JavaScript 是 TypeScript 的同源去类型版本"
+}

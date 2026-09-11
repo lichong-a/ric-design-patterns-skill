@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.class
+*.jar
+**/.build/
+**/bin/
+**/obj/
+**/target/
+**/demo
+*.log
+.DS_Store
+dist/

@@ -1,0 +1,14 @@
+[
+ {"language":"C#","query":"策略模式","paths":["references/csharp/strategy.md"]},
+ {"language":"C++","query":"Factory Method","paths":["references/cpp/factory-method.md"]},
+ {"language":"golang","query":"建造者","paths":["references/go/builder.md"]},
+ {"language":"rust","query":"策略","paths":["references/rust/strategy.md"]},
+ {"language":"TS","query":"比较策略和状态","paths":["references/typescript/state.md","references/typescript/strategy.md"]},
+ {"language":"node","query":"观察者","paths":["references/javascript/observer.md"]},
+ {"language":"python3","query":"","paths":["references/python/README.md"]},
+ {"language":"php","query":"interpreter","paths":["references/php/interpreter.md"]},
+ {"language":"kt","query":"流程骨架","paths":["references/kotlin/template-method.md"]},
+ {"language":"swift","query":"Raft 分布式共识","paths":["references/swift/README.md"]},
+ {"language":"haskell","query":"strategy","error":true},
+ {"language":"../../etc","query":"passwd","error":true}
+]

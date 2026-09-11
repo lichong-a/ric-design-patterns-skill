@@ -1,0 +1,2136 @@
+{
+  "schema_version": 1,
+  "languages": {
+    "python": {
+      "environment": "Local / Linux x86_64",
+      "toolchains": {
+        "python3": "Python 3.13.5"
+      },
+      "examples": {
+        "factory-method": {
+          "sha256": "cb36d1e987afa3dfde0d13db2b19db5507a51a4d6c30ef8ee43c0a0909082534",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:20+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK factory-method",
+          "duration_seconds": 0.648
+        },
+        "abstract-factory": {
+          "sha256": "862fcad8def525d237e2dbcf054a0c7b3ee639967ff55866d53da7bbefdcb59d",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:20+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK abstract-factory",
+          "duration_seconds": 0.701
+        },
+        "builder": {
+          "sha256": "4430654f7293d84bf3e2f3e8aab0835f05c5476871bdff27d709fc596c5901a3",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:20+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK builder",
+          "duration_seconds": 0.727
+        },
+        "prototype": {
+          "sha256": "b69ffded1c2e61efc73a494b82b2cf058693fd8166df903695b4aea819c03b81",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:21+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK prototype",
+          "duration_seconds": 0.655
+        },
+        "singleton": {
+          "sha256": "191062cac60d1f7230f3642257ecbd4f38399ffc3adb7c76f6e4433c21cf92bb",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:21+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK singleton",
+          "duration_seconds": 0.697
+        },
+        "adapter": {
+          "sha256": "50c704684f5718114bfff44fabe75290a8a4cffdd8c927be0e40ea60febe6077",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:21+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK adapter",
+          "duration_seconds": 0.712
+        },
+        "bridge": {
+          "sha256": "1a03e3d6ed4ff77b0fc9f93048817e9e826216ed43272dd48dd7d3a6234e4756",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:21+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK bridge",
+          "duration_seconds": 0.668
+        },
+        "composite": {
+          "sha256": "4ca1a25200b7c7c66c2f18b92416928cda1aa182bb9f5d5e74d9189fbf8a3552",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:21+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK composite",
+          "duration_seconds": 0.718
+        },
+        "decorator": {
+          "sha256": "5c245f24be33ac101f7f68a59ddff8542a525f90758c7259a5e5fe1a1cff37f3",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:21+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK decorator",
+          "duration_seconds": 0.707
+        },
+        "facade": {
+          "sha256": "5a1933f60cb18c5464fcc4f68c3fa71a7039273ac11585a0a18a7faf29e4bdfc",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:22+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK facade",
+          "duration_seconds": 0.624
+        },
+        "flyweight": {
+          "sha256": "2e05b145c7b4ed5bd3c6c1699de7cbff6efc124f7612fd1950d77e2e45a22ce0",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:22+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK flyweight",
+          "duration_seconds": 0.622
+        },
+        "proxy": {
+          "sha256": "19f3293bbf991827847f1e0d4247dda43336d633228657e255b38a5ee9cb770e",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:22+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK proxy",
+          "duration_seconds": 0.607
+        },
+        "chain-of-responsibility": {
+          "sha256": "7c3a947268e2925f9af516d62c5a9dcc96ba802f414ef7013fb25632df473f35",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:22+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK chain-of-responsibility",
+          "duration_seconds": 0.635
+        },
+        "command": {
+          "sha256": "8b6bba230dfde9a42c8f1e84ea687ce23e4d14cfb4e2abd70809068e148fdb19",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:23+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK command",
+          "duration_seconds": 0.663
+        },
+        "interpreter": {
+          "sha256": "807821179360a871051492bc6ab7a8af8326d98375af6bd797dbba24ddc809ea",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:23+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK interpreter",
+          "duration_seconds": 0.611
+        },
+        "iterator": {
+          "sha256": "6879097a9fe49d821fae8123c320584f6955982189ca96a7fe0581828474a8de",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:23+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK iterator",
+          "duration_seconds": 0.783
+        },
+        "mediator": {
+          "sha256": "1355f04aebd8d4622eac83ad3c75e4d0d91d14eda47fa04b6b6a9cb243f562b4",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:23+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK mediator",
+          "duration_seconds": 0.699
+        },
+        "memento": {
+          "sha256": "f7c6a4cfc1ee46258546147ef68fbe0ae2f3beccc9691740d2ca799dc450b9b0",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:23+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK memento",
+          "duration_seconds": 0.772
+        },
+        "observer": {
+          "sha256": "44093e66f834d5f82159e447a9b33715b91ae13b6cf0e4992440d528aa050d16",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:24+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK observer",
+          "duration_seconds": 0.683
+        },
+        "state": {
+          "sha256": "c80cab89ad0006a0c10632d561e596a918610c59f5140c227688434e36d25ccc",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:24+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK state",
+          "duration_seconds": 0.661
+        },
+        "strategy": {
+          "sha256": "7bf482b3758a6d3ae53e46a33c8d0661e4cbb992b228497c2fbdccc8cc729ea5",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:24+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK strategy",
+          "duration_seconds": 0.666
+        },
+        "template-method": {
+          "sha256": "504f2925b9755269c8c86dfa66a2d22d3c9588ed9087365592bdf7db42cc44ef",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:25+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK template-method",
+          "duration_seconds": 0.622
+        },
+        "visitor": {
+          "sha256": "9a80de9627634afdbf1066353c691f5f53ffc269e65161e8982a4a40586b3161",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:25+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK visitor",
+          "duration_seconds": 0.625
+        }
+      }
+    },
+    "javascript": {
+      "environment": "Local / Linux x86_64",
+      "toolchains": {
+        "node": "v22.16.0"
+      },
+      "examples": {
+        "factory-method": {
+          "sha256": "6b0df682b204ef983945ac867beee8128e810e51c27320e57608eec00ed38c18",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:25+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK factory-method",
+          "duration_seconds": 0.029
+        },
+        "abstract-factory": {
+          "sha256": "d8d08272b8c8cb493f5e48b82a293ec1e7b758b361539b701b86dd93b2b51693",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:25+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK abstract-factory",
+          "duration_seconds": 0.03
+        },
+        "builder": {
+          "sha256": "a100f6ca476f97f0621ccf5198de343a72ffd077828965d44ca2623c0c00961e",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:25+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK builder",
+          "duration_seconds": 0.028
+        },
+        "prototype": {
+          "sha256": "0891611a10c2bbb1a2bf0cd55969714814edb45e2d136946ca61394e31c0e3ae",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:25+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK prototype",
+          "duration_seconds": 0.028
+        },
+        "singleton": {
+          "sha256": "1d3472cc2e6039bb70e37503daef7405766d29313f8928506687a09d687e77eb",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:25+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK singleton",
+          "duration_seconds": 0.028
+        },
+        "adapter": {
+          "sha256": "137717bbd9b194315c1b70106f3b4e930f698c772bb0825229f02b38756c3464",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:25+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK adapter",
+          "duration_seconds": 0.026
+        },
+        "bridge": {
+          "sha256": "0ad3a7ebb4bdcf948d61b6a97465c57ea764534e0441aaa75bd7b5db296e7ae0",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:25+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK bridge",
+          "duration_seconds": 0.027
+        },
+        "composite": {
+          "sha256": "1518b837d8e1164af118643120174cd52c9c179ff3ff7ee3af13ffaddaee30c0",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:25+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK composite",
+          "duration_seconds": 0.035
+        },
+        "decorator": {
+          "sha256": "c816e02baa1098fd4d8404a417b3e5f985d525eaa71386ced95a6321bac60334",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:25+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK decorator",
+          "duration_seconds": 0.04
+        },
+        "facade": {
+          "sha256": "5dd39dd86269ca270f0284894703595d7ff837fec6e70230a07f3db4008fe4cf",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:25+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK facade",
+          "duration_seconds": 0.03
+        },
+        "flyweight": {
+          "sha256": "95adbf3563398aa8d85acde87e453211f7c97081b928aae96354c04a4940b3f9",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:25+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK flyweight",
+          "duration_seconds": 0.028
+        },
+        "proxy": {
+          "sha256": "4ab0740859397bd035b811ad3c83bcab16c9793cbafd78b652670da7a4bc0a62",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:25+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK proxy",
+          "duration_seconds": 0.025
+        },
+        "chain-of-responsibility": {
+          "sha256": "e6961d9d1eb8fbfd4dce4154bb950b7cc40f7a6693a72692ae4f113423cd56a2",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:25+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK chain-of-responsibility",
+          "duration_seconds": 0.028
+        },
+        "command": {
+          "sha256": "eb7a3c1f6b204f5660eba9aab30575f9c2d355527f614e9747d546032dc2f517",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:25+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK command",
+          "duration_seconds": 0.032
+        },
+        "interpreter": {
+          "sha256": "270135f3245ed14a5312b41fd64e507dc26fad4f5c92c7b25827b24f5692e150",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:25+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK interpreter",
+          "duration_seconds": 0.029
+        },
+        "iterator": {
+          "sha256": "d4130955bc1ecaa6a83c9d2118a88d0594f92b8329d72b39a2a4838a5c2e29b0",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:25+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK iterator",
+          "duration_seconds": 0.029
+        },
+        "mediator": {
+          "sha256": "2d32fbc96809aa8c8b2e7dd45b8330bd1a71c3a35befaec70046b469825c33bc",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:25+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK mediator",
+          "duration_seconds": 0.027
+        },
+        "memento": {
+          "sha256": "ac1f62a39187df81b96b1d3a1b1ffad1073f5c94ae40c57331d483b9b4048c3e",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:25+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK memento",
+          "duration_seconds": 0.029
+        },
+        "observer": {
+          "sha256": "b21b8877c5d6b61a4bf9ce5dbce0a0230d6b3f8e6efb9e192a5c388c3b00812e",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:25+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK observer",
+          "duration_seconds": 0.026
+        },
+        "state": {
+          "sha256": "ec6a0b4321fa979fd24b32f76aeeec6b91cf65e933b133ebdb1b62d22eaca357",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:25+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK state",
+          "duration_seconds": 0.038
+        },
+        "strategy": {
+          "sha256": "81e781e9a6524a8617716d07f2f3789ff1ae7272a507910bc446e7d39c7e36e9",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:25+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK strategy",
+          "duration_seconds": 0.037
+        },
+        "template-method": {
+          "sha256": "fc02391aa657fd0498194814e9a4eaed8f4646d2947f5c58f4ca984a7824777b",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:25+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK template-method",
+          "duration_seconds": 0.031
+        },
+        "visitor": {
+          "sha256": "a1db8f85484559f9dfa75672ad55e3fc0e7797120a64939f91634d308c921b79",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:25+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK visitor",
+          "duration_seconds": 0.027
+        }
+      }
+    },
+    "typescript": {
+      "environment": "Local / Linux x86_64",
+      "toolchains": {
+        "tsc": "Version 5.8.3",
+        "node": "v22.16.0"
+      },
+      "examples": {
+        "factory-method": {
+          "sha256": "1f3b5b2ad4af048f3ae7f05a632a019df1c6924b59b35fe006f5f1691325f137",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:26+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK factory-method",
+          "duration_seconds": 1.465
+        },
+        "abstract-factory": {
+          "sha256": "b9a2de1662eac344900033854f284d594f0e874d1dd0965a58940dfd4687d80e",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:26+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK abstract-factory",
+          "duration_seconds": 1.404
+        },
+        "builder": {
+          "sha256": "c670e2b238783a2318e97722bc47458e861a1073ea436075d3775581702b3759",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:26+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK builder",
+          "duration_seconds": 1.491
+        },
+        "prototype": {
+          "sha256": "4a21cc22d2cd10c5a1c38acf12d924ca7016c7ca5fe8f90cdf99d53d5f3ed092",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:27+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK prototype",
+          "duration_seconds": 1.469
+        },
+        "singleton": {
+          "sha256": "97213e7d730dd73f6032c0d140d7ee8329d782df4579fb1c274c71302eb1b4cc",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:27+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK singleton",
+          "duration_seconds": 1.408
+        },
+        "adapter": {
+          "sha256": "275a36e40cc5520d5fd7bf83e43713b693e3e08dcdf9bb25242ad531eceb9abc",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:27+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK adapter",
+          "duration_seconds": 1.648
+        },
+        "bridge": {
+          "sha256": "c1c6a3d12040234612d65a3873c2808f27d68ec537e47b5501c5ddaaa62dac66",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:28+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK bridge",
+          "duration_seconds": 1.347
+        },
+        "composite": {
+          "sha256": "987fa198f599974621ff7d5b943448278d13162ac576ee62f79a587edc34688b",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:28+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK composite",
+          "duration_seconds": 1.462
+        },
+        "decorator": {
+          "sha256": "33add4363d391d26fce9459fd987f30d906d999ef15bd3fb382edeb3fd0fc3b0",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:29+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK decorator",
+          "duration_seconds": 1.391
+        },
+        "facade": {
+          "sha256": "0fa763035c6df3a925b5ca31d5dfd69682d2e457be335ae3a9992943958e062d",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:30+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK facade",
+          "duration_seconds": 1.353
+        },
+        "flyweight": {
+          "sha256": "a7d59e4cfac9b3f6a1b957ed18f85b9dbfb6fe9540ccd2a1d81783856b704222",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:30+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK flyweight",
+          "duration_seconds": 1.533
+        },
+        "proxy": {
+          "sha256": "5c955283390fb982dfb7b3cf454c28342fb37356bcf9400db6b1528e740d1d0b",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:30+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK proxy",
+          "duration_seconds": 1.368
+        },
+        "chain-of-responsibility": {
+          "sha256": "b01235c0dcc03c2f378ea19f7c54c8c61f412555570ea654d2a07baa6db4e95c",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:31+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK chain-of-responsibility",
+          "duration_seconds": 1.465
+        },
+        "command": {
+          "sha256": "6a81e97c7a8f31b219ce20137f2635786843b2f1a5bcf4248f3d340843026836",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:31+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK command",
+          "duration_seconds": 1.5
+        },
+        "interpreter": {
+          "sha256": "6cdab2ba8b682da8e0550b4f0ad59d2bf61a2e4876912eb6ea38c730f788351a",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:31+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK interpreter",
+          "duration_seconds": 1.464
+        },
+        "iterator": {
+          "sha256": "fc81386b220a0882fe902611e92347ac7e6909545ff02b8d482218103dff0ec0",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:33+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK iterator",
+          "duration_seconds": 1.189
+        },
+        "mediator": {
+          "sha256": "50ab469887292c1029796d13b85afefa14c8a1d33c90582b29bdf4dd67214d33",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:33+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK mediator",
+          "duration_seconds": 1.639
+        },
+        "memento": {
+          "sha256": "aab14b7b638a433b24f258a21485fb8fc8223dba5e9db2a12a1f12b5c82fe312",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:33+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK memento",
+          "duration_seconds": 1.558
+        },
+        "observer": {
+          "sha256": "ec18ea7520f8afa3cbf8c90e231084fe6d249c98cc20c95d5cca950b14482f9c",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:34+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK observer",
+          "duration_seconds": 1.465
+        },
+        "state": {
+          "sha256": "56232916216cdb97ffc5cd7082a2f8b54be2eaada20a96ea7d3255c349b25192",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:34+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK state",
+          "duration_seconds": 1.669
+        },
+        "strategy": {
+          "sha256": "4babb90c143bc97e3d8f28d7c3ca812aca0a7f349cc87bfae2b0f4802c754c80",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:35+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK strategy",
+          "duration_seconds": 1.542
+        },
+        "template-method": {
+          "sha256": "d064cd0348983d1dab6344e25a421073af2f20252ebe897aa0e44f316aba77e8",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:35+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK template-method",
+          "duration_seconds": 1.312
+        },
+        "visitor": {
+          "sha256": "965410eebab697037696b1b675b568d5d79779bbeb9809108c26e5d8fc7abb2d",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:36+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK visitor",
+          "duration_seconds": 1.088
+        }
+      }
+    },
+    "java": {
+      "environment": "Local / Linux x86_64",
+      "toolchains": {
+        "javac": "javac 21.0.11",
+        "java": "openjdk version \"21.0.11\" 2026-04-21"
+      },
+      "examples": {
+        "factory-method": {
+          "sha256": "f425246fbc77cefd7119c265eea04a83e0adbee1b9ce459be99a3e20815b9064",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:37+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK factory-method",
+          "duration_seconds": 0.896
+        },
+        "abstract-factory": {
+          "sha256": "abcd2c1ed8acb1696739d9292aae5d6167629b55b3d9a5fea65b851ef524c348",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:37+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK abstract-factory",
+          "duration_seconds": 0.91
+        },
+        "builder": {
+          "sha256": "8266984856e6ff8ad84558dcb14f61a7b6165867fe22d5347b4aba398484c5c1",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:37+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK builder",
+          "duration_seconds": 0.755
+        },
+        "prototype": {
+          "sha256": "80e4e6692a04a3f35620efaa6c48c7949eb5ee0458fe5d010f16f71f36f4559c",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:38+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK prototype",
+          "duration_seconds": 0.872
+        },
+        "singleton": {
+          "sha256": "30ba1a0eb80d3b98a5848af95160aa9a63a2210e50e49f206cd211209929333c",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:38+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK singleton",
+          "duration_seconds": 0.715
+        },
+        "adapter": {
+          "sha256": "1c1eb5b1ad0deda0ca36519791113bb0c6851901bdb5f6980bfbc7259ca54c51",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:38+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK adapter",
+          "duration_seconds": 0.815
+        },
+        "bridge": {
+          "sha256": "34d113a7a29849b584e9d66068643c4c517f7b92957140e3a73dad90edb59b09",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:39+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK bridge",
+          "duration_seconds": 0.816
+        },
+        "composite": {
+          "sha256": "64e35b0235d70ac1dc95e11af7d1f92e08150da780200b52f3cdc40f92389303",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:39+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK composite",
+          "duration_seconds": 0.814
+        },
+        "decorator": {
+          "sha256": "baa421612c400c60ecc3405bc13bfa44f0e4b53dc4d9d3c7965ea2ac87d5e8a4",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:39+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK decorator",
+          "duration_seconds": 0.903
+        },
+        "facade": {
+          "sha256": "ffa601a4d1b98a767c3e8370a3b05f7577046bc1c6972fbe7cf99ac7964fb6f4",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:40+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK facade",
+          "duration_seconds": 0.757
+        },
+        "flyweight": {
+          "sha256": "bd03c86d550cdf393c6cae21988ba99612ddc5f6980ea8ca4215df9bb6b0eb1b",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:40+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK flyweight",
+          "duration_seconds": 0.849
+        },
+        "proxy": {
+          "sha256": "d1f2447171b35c925a1164d7fe177d764e372801037883f814b4b1809be8c863",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:40+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK proxy",
+          "duration_seconds": 0.937
+        },
+        "chain-of-responsibility": {
+          "sha256": "3664eb4a17efaec0ffa357828c282d2dc77318e761392135faf0936fe9a4231b",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:41+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK chain-of-responsibility",
+          "duration_seconds": 0.818
+        },
+        "command": {
+          "sha256": "aa8cdb049f7dd5e26cabc60c6b8af8455b17d9304d7698cf6cfddb4f1db5b662",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:41+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK command",
+          "duration_seconds": 0.738
+        },
+        "interpreter": {
+          "sha256": "5d33d8a3ae18defed5fc3e9e6ca8e6328606d313a2fffb249a654463f1529d99",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:41+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK interpreter",
+          "duration_seconds": 0.98
+        },
+        "iterator": {
+          "sha256": "a5b34c0e90adf3787984beda340945a07f8bc0cefe66c52453431f7f6772b5ce",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:41+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK iterator",
+          "duration_seconds": 0.802
+        },
+        "mediator": {
+          "sha256": "e1d97666c71174249820e5c9101ab1f04836b704d9b3594c726eb0a00c007cd8",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:41+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK mediator",
+          "duration_seconds": 0.78
+        },
+        "memento": {
+          "sha256": "4b4a67c510266bd0fe01ee3939aba9238c27fca5fd75b5fbbc51fa7065dc2ce4",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:42+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK memento",
+          "duration_seconds": 0.78
+        },
+        "observer": {
+          "sha256": "4620405419aec35b7bca59dce9e7b4855e1bb952155acf360f486f877994d3d7",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:42+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK observer",
+          "duration_seconds": 0.752
+        },
+        "state": {
+          "sha256": "746b1f1a8397d8ec47c12e3399baeafa4b865185cfd9762c50ced564cc4ce01e",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:42+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK state",
+          "duration_seconds": 0.723
+        },
+        "strategy": {
+          "sha256": "6e42ffe99a3db159077614fb5651a054aa1f62506b68fbaf1b2be5e138ed9705",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:43+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK strategy",
+          "duration_seconds": 0.885
+        },
+        "template-method": {
+          "sha256": "c3ee9852d4c0a2a07e99065116a61ba4d307f2839980d8308f0a17124d6cac48",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:43+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK template-method",
+          "duration_seconds": 0.857
+        },
+        "visitor": {
+          "sha256": "5b42ec8e32bfac176812bfdfc91ce3edec35ef676ef0cb7e5e9c5b21c558dd06",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:43+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK visitor",
+          "duration_seconds": 0.802
+        }
+      }
+    },
+    "cpp": {
+      "environment": "Local / Linux x86_64",
+      "toolchains": {
+        "g++": "g++ (Debian 14.2.0-19) 14.2.0"
+      },
+      "examples": {
+        "factory-method": {
+          "sha256": "4ee27bc7d601e2b1fb6cc7f0525894ee76d317d249b84dd1e6ef0ebab7a5fb1d",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:44+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK factory-method",
+          "duration_seconds": 0.441
+        },
+        "abstract-factory": {
+          "sha256": "bc96a94208477239edc45a538e51044f8324fb557e0e1051c1d05de2a11d488b",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:44+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK abstract-factory",
+          "duration_seconds": 0.464
+        },
+        "builder": {
+          "sha256": "be4fdc5ab5c048c93c3dcd1772fab983e2b4f38426a3a481285389096408c901",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:44+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK builder",
+          "duration_seconds": 0.409
+        },
+        "prototype": {
+          "sha256": "e3dd60d2dce29c65bd9bedd0c61314a8008ad25bb091abf2898f1882ae6047dd",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:44+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK prototype",
+          "duration_seconds": 0.429
+        },
+        "singleton": {
+          "sha256": "e772946455b05194e74dcc3e56df5293a993393ac9ce5f0ef511e7664be0459e",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:44+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK singleton",
+          "duration_seconds": 0.415
+        },
+        "adapter": {
+          "sha256": "db87ddbbe9d6a908be4152809248000941cab2a88c3075f8a0f3051a5a6be516",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:44+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK adapter",
+          "duration_seconds": 0.424
+        },
+        "bridge": {
+          "sha256": "6fdeec5a2b7b8e1d975e379c9641ac5b77ace2c85edcdc5552978686a8f10bf0",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:45+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK bridge",
+          "duration_seconds": 0.386
+        },
+        "composite": {
+          "sha256": "78a2f8a0d3f1008ca45493c83d89c3d183be4259887dae0fca49efc257332a3a",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:45+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK composite",
+          "duration_seconds": 0.459
+        },
+        "decorator": {
+          "sha256": "d8f072684645c4f34c52dba390e7054879b1718041dfe2e804671356e42c044c",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:45+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK decorator",
+          "duration_seconds": 0.453
+        },
+        "facade": {
+          "sha256": "a8140e281ff2fe81ca30c1101ee99ac7a51591395ada3d654b640ca28de7488a",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:45+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK facade",
+          "duration_seconds": 0.401
+        },
+        "flyweight": {
+          "sha256": "c40c1fe821814238647de4755dcdd1af48967bc28752be265dfe67bcdf78646b",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:45+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK flyweight",
+          "duration_seconds": 0.464
+        },
+        "proxy": {
+          "sha256": "0df45b46fab9adadc2909ba91046e6e0a4e2f52bc6c9f19ec6f562f1a181733a",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:45+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK proxy",
+          "duration_seconds": 0.399
+        },
+        "chain-of-responsibility": {
+          "sha256": "f8a704f592de7770ca7121d93dbbda2fdb266a444013da9242d26bb9f0b1c87d",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:45+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK chain-of-responsibility",
+          "duration_seconds": 0.44
+        },
+        "command": {
+          "sha256": "58211eeb7dcd041171d5e02d1ddd55b3e7ec1540b4561e2cdbc675f85a06104b",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:45+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK command",
+          "duration_seconds": 0.381
+        },
+        "interpreter": {
+          "sha256": "ca976e185c5cf4c6081ad44640d85ec720bbb708f1ec303340c07ce6ed5a1d1a",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:46+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK interpreter",
+          "duration_seconds": 0.528
+        },
+        "iterator": {
+          "sha256": "57fc9abe43987fef335d7b497d1e4fa5172c74f8af9bfc771fe4647b2f7a2523",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:46+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK iterator",
+          "duration_seconds": 0.414
+        },
+        "mediator": {
+          "sha256": "1f0414738f77f44edd10ec02da54ac24836942ce384089fcc633c2e6c982dffe",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:46+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK mediator",
+          "duration_seconds": 0.478
+        },
+        "memento": {
+          "sha256": "9ed6072fa0406a863e3c0352192d5ff78e369fecca94d27970dbf0e1243e7812",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:46+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK memento",
+          "duration_seconds": 0.446
+        },
+        "observer": {
+          "sha256": "e8bdc837de144c5b90f5c1c8d799135422e73fea98249de12297258a1dba90a9",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:46+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK observer",
+          "duration_seconds": 0.526
+        },
+        "state": {
+          "sha256": "7f874151fad92afc8ac9dc4a6bdc9760e329df8ba53f5a326cd0ef14b3667132",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:46+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK state",
+          "duration_seconds": 0.461
+        },
+        "strategy": {
+          "sha256": "5477d265c030ffd9ff24a83c5ecbad8a859cd7e7e445c3ce2da121ed4eef61e7",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:46+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK strategy",
+          "duration_seconds": 0.427
+        },
+        "template-method": {
+          "sha256": "b325ea12d26b783f06f02c4c4009d705ff80c33796c18e3a5a9e4b3d0a107378",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:47+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK template-method",
+          "duration_seconds": 0.428
+        },
+        "visitor": {
+          "sha256": "10cc2c8624ab1a5c7a85046bb840c236eed1469b8c9cf340b821aad28695a766",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:47+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK visitor",
+          "duration_seconds": 0.45
+        }
+      }
+    },
+    "go": {
+      "environment": "Local / Linux x86_64",
+      "toolchains": {
+        "go": "go version go1.23.2 linux/amd64"
+      },
+      "examples": {
+        "factory-method": {
+          "sha256": "ed19915d411f1762eed6149893d1881ca77e702f2dfff156bdcf3e54bb023a2b",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:47+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK factory-method",
+          "duration_seconds": 0.151
+        },
+        "abstract-factory": {
+          "sha256": "d41b42fea23d64ddc7dbb4e72b62b34d586d37e6cc3f7224ebd4b298d9eb905f",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:47+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK abstract-factory",
+          "duration_seconds": 0.147
+        },
+        "builder": {
+          "sha256": "7c44e0fd7a924e55c446ec3faf2ee0c3b42432c21ccba8d0b8419861a75d8f7d",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:47+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK builder",
+          "duration_seconds": 0.146
+        },
+        "prototype": {
+          "sha256": "488f09d761e35e354d71f905524a14d3c4cf78ec0a58edcd6c311cfe28794be7",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:47+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK prototype",
+          "duration_seconds": 0.124
+        },
+        "singleton": {
+          "sha256": "d6a30f4864c9fef7eb3c5eae483661667038b5ebf6989ac15ef1d7896bb14bf6",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:47+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK singleton",
+          "duration_seconds": 0.124
+        },
+        "adapter": {
+          "sha256": "3fe4c824a27f7a918229e5f0388fe3245f3abd21c93653982bafdcadd6528897",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:47+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK adapter",
+          "duration_seconds": 0.118
+        },
+        "bridge": {
+          "sha256": "5daa4cbc49659c6dc1688f6f3dd866ee30fffaf4c703ae73aea9ff1a4f61627c",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:48+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK bridge",
+          "duration_seconds": 0.122
+        },
+        "composite": {
+          "sha256": "5f2be0cb1507ca640a797eb6dc8ae44cb0dea9df73e97a8d296c21bb4e5d0c9d",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:48+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK composite",
+          "duration_seconds": 0.127
+        },
+        "decorator": {
+          "sha256": "8b2cef93d23203f9828082681b2fabf227f9d40bd02324b811ef4daa629c1e4a",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:48+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK decorator",
+          "duration_seconds": 0.12
+        },
+        "facade": {
+          "sha256": "e768e3e91511c3cbdba707083e3a88dd122ad9d76d1a871d9c17833af89a6103",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:48+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK facade",
+          "duration_seconds": 0.135
+        },
+        "flyweight": {
+          "sha256": "e6023c90f07cf83d87f6db857a5262f5650b6909cdd04cc8a4991ce69e935132",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:48+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK flyweight",
+          "duration_seconds": 0.153
+        },
+        "proxy": {
+          "sha256": "0face92180b3a087608900f623d53d0cec03a8891086fd485d98ec54ae6e32eb",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:48+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK proxy",
+          "duration_seconds": 0.15
+        },
+        "chain-of-responsibility": {
+          "sha256": "a4b2d9c47857ffe8f401f3fdb4929f447798b90986f6d6bdaa1fdc30ad49f4b2",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:48+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK chain-of-responsibility",
+          "duration_seconds": 0.153
+        },
+        "command": {
+          "sha256": "ff184bfccf82393b71b2b9d27bb4ae0d335548e6758bad1676f69a14edf58e62",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:48+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK command",
+          "duration_seconds": 0.132
+        },
+        "interpreter": {
+          "sha256": "8f6bd4cd47cf01637ab9b02459e529471781a5f6e4a96d2852c28f62faa19a44",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:48+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK interpreter",
+          "duration_seconds": 0.135
+        },
+        "iterator": {
+          "sha256": "149b1f90f9fba65ffe7fc5f3da944fb096d4c52d82ee752d4f0972892653c7b1",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:48+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK iterator",
+          "duration_seconds": 0.134
+        },
+        "mediator": {
+          "sha256": "ba5288031f7862d3b7d7610de71768eb8a359587cd048429dec3dc78b49066a7",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:48+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK mediator",
+          "duration_seconds": 0.135
+        },
+        "memento": {
+          "sha256": "a0a88955130e6646f0e9753ca5c58d5fc446efeaef1354f1f0fdc79905455794",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:48+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK memento",
+          "duration_seconds": 0.135
+        },
+        "observer": {
+          "sha256": "89cd0c610be5b2f9a148b079167995c2e7e5e477752ef3c5603b5606a630117f",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:48+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK observer",
+          "duration_seconds": 0.137
+        },
+        "state": {
+          "sha256": "6a93c6025bbefd62055c6ae437feaa9eb15b0a7ce6b920181c575c351458175d",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:48+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK state",
+          "duration_seconds": 0.132
+        },
+        "strategy": {
+          "sha256": "d7caff5d14f2bcdf48eae0317e97b47476a657a24835ba7cf61621880b50b36f",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:48+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK strategy",
+          "duration_seconds": 0.167
+        },
+        "template-method": {
+          "sha256": "19480a8085e3c4e40b0b133f7f7d7849752d828c42a2ae47e20023eabbfcb884",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:48+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK template-method",
+          "duration_seconds": 0.113
+        },
+        "visitor": {
+          "sha256": "693ec48927e662e803818d6e69111565b7918f84493ee12ca97843d56342bef6",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:48+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK visitor",
+          "duration_seconds": 0.111
+        }
+      }
+    },
+    "php": {
+      "environment": "Local / Linux x86_64",
+      "toolchains": {
+        "php": "PHP 8.4.23 (cli) (built: Jul  3 2026 12:26:56) (NTS)"
+      },
+      "examples": {
+        "factory-method": {
+          "sha256": "bb3104156d585f2f9302185c924b7cf3ca6ea02647211e0da5a70f9564454488",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:48+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK factory-method",
+          "duration_seconds": 0.012
+        },
+        "abstract-factory": {
+          "sha256": "d0c7b9771e3a00599e44eaacfa5a157ae34b0889eb763ba70c23edcd57cd722c",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:48+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK abstract-factory",
+          "duration_seconds": 0.011
+        },
+        "builder": {
+          "sha256": "49f14ebcb2809f0994ee978368be57e2a312effb81c0c4992d9abd038786f6fe",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:48+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK builder",
+          "duration_seconds": 0.011
+        },
+        "prototype": {
+          "sha256": "61e946b370c7c18672064f687065e483182bd026235262b3563e25d4fc6f6383",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:48+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK prototype",
+          "duration_seconds": 0.017
+        },
+        "singleton": {
+          "sha256": "2ef0ae5228562374e04e5d0fe7de9ebde76d83fdbf025cd871a4711d7e5f2fb7",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:48+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK singleton",
+          "duration_seconds": 0.013
+        },
+        "adapter": {
+          "sha256": "9cb13bd775a85505e83955f0b70ca1587215d12164474ebb42863bd66fa55818",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:48+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK adapter",
+          "duration_seconds": 0.011
+        },
+        "bridge": {
+          "sha256": "15088ae4ad0aca05f6d4e42114b0cd85784cb0f5285171cd38a0ed6274a093c2",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:48+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK bridge",
+          "duration_seconds": 0.01
+        },
+        "composite": {
+          "sha256": "fe58565181b38b19629dc997585770182af785af1d5ee8ba165796325153a825",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:48+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK composite",
+          "duration_seconds": 0.01
+        },
+        "decorator": {
+          "sha256": "c81886706307b90956bf1aa6b8922ec11aca9870d731b9e2cc0c15bec5ba91eb",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:48+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK decorator",
+          "duration_seconds": 0.011
+        },
+        "facade": {
+          "sha256": "a7a886a88ceb9b6e9074c95bb177c166482ed69414978b03eab0dfbb79fc9c13",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:48+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK facade",
+          "duration_seconds": 0.011
+        },
+        "flyweight": {
+          "sha256": "33f9f4fc3032c0764aeea9abb757eabb2d213ade4c498d5ecffe6668a9b2ca2d",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:48+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK flyweight",
+          "duration_seconds": 0.01
+        },
+        "proxy": {
+          "sha256": "503b42210d0fa1a60884a3d6c8186395f4fbf785541c1c6242d4bdaef8a82b8e",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:48+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK proxy",
+          "duration_seconds": 0.011
+        },
+        "chain-of-responsibility": {
+          "sha256": "478cb1a9869ce63e3c3680769b8040c36f92a6455ebe41f72f3b263b61ec1a8b",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:48+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK chain-of-responsibility",
+          "duration_seconds": 0.011
+        },
+        "command": {
+          "sha256": "5ee9699355ded289459ae411ff6bfd216eee6c67b7832096d1983b1ae1764b53",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:48+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK command",
+          "duration_seconds": 0.012
+        },
+        "interpreter": {
+          "sha256": "830fabe4feaed83d374792ca6fcc0e8d4f64f62d7e4d5e0878711774363b0e05",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:48+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK interpreter",
+          "duration_seconds": 0.01
+        },
+        "iterator": {
+          "sha256": "f5644a90e02cf0df0b7ad2460d6e94f1933793e1b02243c009122b7efa30aedf",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:48+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK iterator",
+          "duration_seconds": 0.01
+        },
+        "mediator": {
+          "sha256": "0e0fc1117671319aefae428298a34d90d2a7df1067fad79eff336172cdd6aba3",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:48+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK mediator",
+          "duration_seconds": 0.012
+        },
+        "memento": {
+          "sha256": "2feee1d0156d91b9b82ec3ac23eea54ba800be5a79c18f44029ee1a7f121f95c",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:48+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK memento",
+          "duration_seconds": 0.01
+        },
+        "observer": {
+          "sha256": "e751abb97f5fe41a33872dee293c0b5193ed340ea7836df8b53c0ca4eceb227b",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:48+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK observer",
+          "duration_seconds": 0.011
+        },
+        "state": {
+          "sha256": "c15a0d9b2b39d744649854d634b6da01bb2016f207b5bd13290b03caf28b018e",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:48+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK state",
+          "duration_seconds": 0.009
+        },
+        "strategy": {
+          "sha256": "736fbf89b64a7d2686b942947f2292374dab2a779573771d6dfc3ddd18fea35e",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:48+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK strategy",
+          "duration_seconds": 0.012
+        },
+        "template-method": {
+          "sha256": "05726004e3fee04840e5aef26cae7c06edccf7e2f9ec5b8653eea646192cf5ce",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:48+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK template-method",
+          "duration_seconds": 0.01
+        },
+        "visitor": {
+          "sha256": "f2d3f99823b80e39e8d470c3b5506a9ca55e73ab548a3c195ef070df03f57fd7",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:48+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK visitor",
+          "duration_seconds": 0.012
+        }
+      }
+    },
+    "ruby": {
+      "environment": "Local / Linux x86_64",
+      "toolchains": {
+        "ruby": "ruby 3.3.8 (2025-04-09 revision b200bad6cd) [x86_64-linux-gnu]"
+      },
+      "examples": {
+        "factory-method": {
+          "sha256": "87ee793a9bc5cc73cd9684f125345d3e94a9ffb4b7e5034745c625adb108d781",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:48+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK factory-method",
+          "duration_seconds": 0.047
+        },
+        "abstract-factory": {
+          "sha256": "e6e39f7f40c708e75cc907d2b18e79fc375094a82bc87e05efed6efd4f4738cc",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:48+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK abstract-factory",
+          "duration_seconds": 0.046
+        },
+        "builder": {
+          "sha256": "33f3f9adc6be887ed12668d0fbb17730233d5d412cb1f21accce76dd74a54343",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:48+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK builder",
+          "duration_seconds": 0.05
+        },
+        "prototype": {
+          "sha256": "e3fd4cfa9d68c63d6a5084336428e759fb5bfe8928263ee5291938cd87921c65",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:48+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK prototype",
+          "duration_seconds": 0.046
+        },
+        "singleton": {
+          "sha256": "261ecc26eb642f07bac4b1e02a61cc878f4234854b4dbdc70a4b0e182a1f98f9",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:48+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK singleton",
+          "duration_seconds": 0.046
+        },
+        "adapter": {
+          "sha256": "a8927d185df29ad7d1f7af72dc867afd91881cfabe82b55de7c924f30f4a5ac6",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:48+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK adapter",
+          "duration_seconds": 0.047
+        },
+        "bridge": {
+          "sha256": "59a6e2da42c259612fa94539824dc8ca6a0b718d80b30a61713d1c4f1fbf2512",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:49+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK bridge",
+          "duration_seconds": 0.048
+        },
+        "composite": {
+          "sha256": "359cf8d4e622f0a429d915b2686a1a8ed22806d38af5ce877ca3d1078cad7077",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:49+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK composite",
+          "duration_seconds": 0.046
+        },
+        "decorator": {
+          "sha256": "4b93b576c334e29f2bcd8181a83308b7d585f2c43b290c8883fbe1958772c397",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:49+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK decorator",
+          "duration_seconds": 0.046
+        },
+        "facade": {
+          "sha256": "09588b1e3309f6e328be41f6bee9c3c1c250ff29777da4ffee118069218c7cab",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:49+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK facade",
+          "duration_seconds": 0.048
+        },
+        "flyweight": {
+          "sha256": "64c0bc042b6cc1fff54dc14162cf8c9b19373be42563213d84d46c553796573b",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:49+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK flyweight",
+          "duration_seconds": 0.047
+        },
+        "proxy": {
+          "sha256": "9c3aa38a94b9a82aaf0ddf5ef1cfc7dabad0981e0c32f6ca8c173a85084e3671",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:49+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK proxy",
+          "duration_seconds": 0.046
+        },
+        "chain-of-responsibility": {
+          "sha256": "55ca09cb11dcebe72ab7e2932aa186e8dd344f2bd973a2305e420869575515af",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:49+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK chain-of-responsibility",
+          "duration_seconds": 0.046
+        },
+        "command": {
+          "sha256": "18fce2d52c5dc3edf1deb1b754272c76d58e6c0d3ba0cce07292aca56725a21d",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:49+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK command",
+          "duration_seconds": 0.047
+        },
+        "interpreter": {
+          "sha256": "da70b627f1be6601da3343f9197d2c441b8cd2228fed6fd15ae29a7a9514364c",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:49+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK interpreter",
+          "duration_seconds": 0.048
+        },
+        "iterator": {
+          "sha256": "a3a4ddbdc73776c639bca859ed78ae3fb1a77bf65d08d52a37a28392af152bd3",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:49+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK iterator",
+          "duration_seconds": 0.046
+        },
+        "mediator": {
+          "sha256": "8d3c4329fca1c153664b1385101a5e6a9493334fd95d235bfbd812f9005903ba",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:49+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK mediator",
+          "duration_seconds": 0.05
+        },
+        "memento": {
+          "sha256": "40dd6849bd0f66720a5bd573fa0bc1ee61540f45db5ea37bbe467d0a163ea370",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:49+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK memento",
+          "duration_seconds": 0.048
+        },
+        "observer": {
+          "sha256": "15136ae02b94efc0e808760255c74e5b545abed83163264ecef8887dac1cc675",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:49+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK observer",
+          "duration_seconds": 0.048
+        },
+        "state": {
+          "sha256": "19b4c0943cb8f4962188017cdcd294452accbc4b2344c6304b27022b7ca6c7bb",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:49+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK state",
+          "duration_seconds": 0.047
+        },
+        "strategy": {
+          "sha256": "0b68e1489f936c3e238bda7159b1ac484089f89ac7837791d04c1ae9f641669b",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:49+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK strategy",
+          "duration_seconds": 0.045
+        },
+        "template-method": {
+          "sha256": "395aa447b6afbe736d894af5c73cd82279aba27988c8ea7697588649fef6c7ba",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:49+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK template-method",
+          "duration_seconds": 0.049
+        },
+        "visitor": {
+          "sha256": "42bc105c9855b3d0a2754d961996e51b31f7b0a2732978958f86f4e97a06d91c",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:20:49+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK visitor",
+          "duration_seconds": 0.046
+        }
+      }
+    },
+    "swift": {
+      "environment": "Local / Linux x86_64",
+      "toolchains": {
+        "swiftc": "Swift version 6.2.1 (swift-6.2.1-RELEASE)"
+      },
+      "examples": {
+        "factory-method": {
+          "sha256": "7977b416e4cb42fe5dcb6ea47d1472b2a16d4bc8110b4505338c9aa92c342893",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:22:48+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK factory-method",
+          "duration_seconds": 0.341
+        },
+        "abstract-factory": {
+          "sha256": "890958690562d2cd534d35876b4f65da0ddb65111634acfef0496e665738a79b",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:22:48+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK abstract-factory",
+          "duration_seconds": 0.383
+        },
+        "builder": {
+          "sha256": "8b994ba96e55024d31293e74eb76b4bf63d28daa3682b447ea19718b9647f4be",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:22:48+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK builder",
+          "duration_seconds": 0.386
+        },
+        "prototype": {
+          "sha256": "8b2c8b64190473837f16336272c9716d68b7088ac468beaa2d63ef0b223daf62",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:22:48+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK prototype",
+          "duration_seconds": 0.349
+        },
+        "singleton": {
+          "sha256": "4b3155fd5a839851962157630f5ca7b1f849ea971658647abe53e6a94aea7998",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:22:48+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK singleton",
+          "duration_seconds": 0.33
+        },
+        "adapter": {
+          "sha256": "34304ab511f9812a914a96e8c93d6d2236f6bd27224620d7d18ab0596c10a3ec",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:22:48+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK adapter",
+          "duration_seconds": 0.336
+        },
+        "bridge": {
+          "sha256": "7058db4d43d75328f67f79965b311ac9d34b8d8bbab345f2365e5d8c93f6879e",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:22:48+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK bridge",
+          "duration_seconds": 0.337
+        },
+        "composite": {
+          "sha256": "1b3ac0d3a442f50e186b1dd5ed02e24ab944eaca9e8abf42ee42c0333d89aeaa",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:22:48+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK composite",
+          "duration_seconds": 0.311
+        },
+        "decorator": {
+          "sha256": "2379db02211ee11373a04a2501bc49237a9920c0cb1148a3e578fc521e2b4b67",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:22:48+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK decorator",
+          "duration_seconds": 0.286
+        },
+        "facade": {
+          "sha256": "71769ef6a631b7c3db33e4d07e1b4e1bbeed8ac593b905ecb6f7b65f9635cb36",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:22:49+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK facade",
+          "duration_seconds": 0.306
+        },
+        "flyweight": {
+          "sha256": "cf772152741a232d8c78d0a279eaf6e7d131c36efe4b5e6794ad62eff3ff8a71",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:22:49+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK flyweight",
+          "duration_seconds": 0.293
+        },
+        "proxy": {
+          "sha256": "f4f439e0b6e12d3b7c71cdfb1b25a217af3054dd38cd608577dd7b4b9b3b4e4c",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:22:49+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK proxy",
+          "duration_seconds": 0.342
+        },
+        "chain-of-responsibility": {
+          "sha256": "8367a46fea0164a1fb46b74f34f687432b65c6912d2f71810f3b3a25abb1d798",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:22:49+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK chain-of-responsibility",
+          "duration_seconds": 0.311
+        },
+        "command": {
+          "sha256": "b544c4ba11dada5d619f70fd47a9b92f59a2f9a65097bfcd3abbf95374474d55",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:22:49+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK command",
+          "duration_seconds": 0.309
+        },
+        "interpreter": {
+          "sha256": "bb6f0f71699a7d7de53f4c80ce970f6bd77ece50b6e101a9a2b083c35977784c",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:22:49+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK interpreter",
+          "duration_seconds": 0.35
+        },
+        "iterator": {
+          "sha256": "375866621e5c52af3cfd11c061fa0bf90fae2d36c80edeff9446396112d56dfd",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:22:49+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK iterator",
+          "duration_seconds": 0.375
+        },
+        "mediator": {
+          "sha256": "69d36daa5301a037fd07eaf5f85a8124cc52c7ba849f0484cff1ad67c5582817",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:22:49+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK mediator",
+          "duration_seconds": 0.338
+        },
+        "memento": {
+          "sha256": "96aff856bb311621049f06eab902296894273a0877f28507af002868d6daac72",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:22:49+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK memento",
+          "duration_seconds": 0.314
+        },
+        "observer": {
+          "sha256": "0e475132b468e8a1648a6bf0ef385a2cf024f7aae6d99e4d4ec2e7fa98b32264",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:22:50+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK observer",
+          "duration_seconds": 0.366
+        },
+        "state": {
+          "sha256": "f939b859872a67d5351275a26c8213b6db45b2927ecf83e030082d44b719969e",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:22:50+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK state",
+          "duration_seconds": 0.325
+        },
+        "strategy": {
+          "sha256": "aa07522ceb32eec645f4e8a365f1878198bec73e2e8bf2a568530fdfde2788f3",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:22:50+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK strategy",
+          "duration_seconds": 0.328
+        },
+        "template-method": {
+          "sha256": "5e9d3cab7fd84f72c8d38413884ad962429ed2be70e79976916f30cf0b8e76fc",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:22:50+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK template-method",
+          "duration_seconds": 0.317
+        },
+        "visitor": {
+          "sha256": "530f195772cc06720db1ac7482951d43721ed0f3bf1e41893d2d353ec5d92e28",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:22:50+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK visitor",
+          "duration_seconds": 0.325
+        }
+      }
+    },
+    "kotlin": {
+      "environment": "Local / Linux x86_64",
+      "toolchains": {
+        "kotlinc": "info: kotlinc-jvm 1.9.0 (JRE 21.0.11+10-1-deb13u2-Debian)",
+        "java": "openjdk version \"21.0.11\" 2026-04-21"
+      },
+      "examples": {
+        "factory-method": {
+          "sha256": "e538138803607845881e350db163a65665adba0ebff83acf3a39209945fa7078",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:22:52+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK factory-method"
+        },
+        "abstract-factory": {
+          "sha256": "39e42e3a118a082a3da10deda238a5f3ce5fd6db09284f1e6e95ae522944a832",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:22:52+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK abstract-factory"
+        },
+        "builder": {
+          "sha256": "92a49093d011d7f5f29608206d383a161f23dd73560e68fbec659e06ca569701",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:22:52+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK builder"
+        },
+        "prototype": {
+          "sha256": "e70931276e47255b9cd490c1699bc89cf143afa25c0486b7bb5b9733fb05dd86",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:22:52+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK prototype"
+        },
+        "singleton": {
+          "sha256": "4355c74b753699556d2e953c63a94a9a022525a6ba1f211b9c307305b9c17cc5",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:22:52+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK singleton"
+        },
+        "adapter": {
+          "sha256": "0cd89a40b69d175ed77f3c7e28365a542e847d1e7be69a6171ac7f6395ed2d30",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:22:52+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK adapter"
+        },
+        "bridge": {
+          "sha256": "7c83b5304d4a2dfc2906365532526252b6f74ab0eaf885ee8b445f8ef92f59a5",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:22:52+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK bridge"
+        },
+        "composite": {
+          "sha256": "0c407a1f6f75cfb64a5accfbd5a4489b21d2e4d78b5fee80ef27d5629735f069",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:22:52+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK composite"
+        },
+        "decorator": {
+          "sha256": "62a3e215fa2631647f9d3389dcd159b002c753c8684bc9682f8b5f2759136d70",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:22:52+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK decorator"
+        },
+        "facade": {
+          "sha256": "79f6b26458cdfddf4479bb1a9f2c7ba4452a817b45509d7bc1152c4d8dbe8807",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:22:52+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK facade"
+        },
+        "flyweight": {
+          "sha256": "20f5d220bdafd9a3d9595c7e85903b67c38867a15b0121d4fe1292795ba36927",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:22:52+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK flyweight"
+        },
+        "proxy": {
+          "sha256": "6169ffcd3d0c1bd00032559be16845487b42edf2e041522f5edfa85864acabbb",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:22:52+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK proxy"
+        },
+        "chain-of-responsibility": {
+          "sha256": "538f3c316a237b83f6761c99a9f774e1f645fb90173eeeafd327bba24fc5570c",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:22:52+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK chain-of-responsibility"
+        },
+        "command": {
+          "sha256": "f617ba3b3e5bb2cce77f473d3269b2b6036af55709516123e818bc196ccdd63b",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:22:52+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK command"
+        },
+        "interpreter": {
+          "sha256": "e2a6ba7d5309c2d0c947331e8fb315605d9ae6d1654d9ad4791fb1bd97265b65",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:22:52+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK interpreter"
+        },
+        "iterator": {
+          "sha256": "33cd84c1bada173777f275ed57e9cf6cefa0771ebb37dacb08c5b90d62649580",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:22:52+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK iterator"
+        },
+        "mediator": {
+          "sha256": "2aa70167e2d4964c6daa20a1d426a6a4c8a251ece4063754b358f7b98236f802",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:22:52+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK mediator"
+        },
+        "memento": {
+          "sha256": "32df9bc3671f30b0ec69c43760e59daecf97f035968f2305971e5fb10c0ebc1a",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:22:52+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK memento"
+        },
+        "observer": {
+          "sha256": "d1ff4ce806ba475ce8b53c05050312005b8b6a8a3c619c81cdd280a788970e9d",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:22:52+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK observer"
+        },
+        "state": {
+          "sha256": "a8483011ab57470e947401b48a984e9e79c67b6c082863d5393ac7e12ce1ff52",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:22:52+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK state"
+        },
+        "strategy": {
+          "sha256": "4eb8770e6e7658036661b9172b229ab5f9ec6ba3459d2f295c836c6d6c50b5af",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:22:52+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK strategy"
+        },
+        "template-method": {
+          "sha256": "5713d098180e9a1f777f469e0519c1ad9e07d13c31ad7c71fffbed1c590d8d4d",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:22:52+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK template-method"
+        },
+        "visitor": {
+          "sha256": "67aaedce6f1d50d8212273cf0b10bf0b215a9afecd2beb073266d7ea40083632",
+          "status": "passed",
+          "checked_at": "2026-09-11T02:22:52+00:00",
+          "phase": "run",
+          "returncode": 0,
+          "stdout": "OK visitor"
+        }
+      }
+    }
+  },
+  "updated_at": "2026-09-11T02:22:59+00:00"
+}

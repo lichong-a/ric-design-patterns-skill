@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="225" viewBox="0 0 1200 225" role="img" aria-labelledby="title desc">
+<title id="title">Three-level navigation</title><desc id="desc">A lightweight skill entry routes to a language selection guide and a self-contained pattern implementation. Known language and pattern can be accessed directly.</desc>
+<rect width="1200" height="225" rx="18" fill="#f3f6fa"/>
+<g font-family="Arial, Helvetica, sans-serif">
+<path d="M330 104H427M762 104H859" stroke="#6f8399" stroke-width="2"/>
+<path d="m419 99 8 5-8 5m432-10 8 5-8 5" fill="none" stroke="#6f8399" stroke-width="2"/>
+<rect x="30" y="37" width="300" height="130" rx="14" fill="#14253a"/>
+<text x="53" y="65" fill="#8fdac7" font-size="11" font-weight="700" letter-spacing="2">01 / ROUTE</text>
+<text x="53" y="99" fill="#f5f8fd" font-size="23" font-weight="700">SKILL.md</text>
+<text x="53" y="132" fill="#b4c4d8" font-size="15">Language + task + constraints</text>
+<rect x="427" y="37" width="335" height="130" rx="14" fill="#fff" stroke="#d4dfe9"/>
+<text x="451" y="65" fill="#467d75" font-size="11" font-weight="700" letter-spacing="2">02 / CHOOSE</text>
+<text x="451" y="99" fill="#203650" font-size="23" font-weight="700">Language guide</text>
+<text x="451" y="132" fill="#60748b" font-size="15">23 use cases + comparisons</text>
+<rect x="859" y="37" width="310" height="130" rx="14" fill="#fff" stroke="#98c8ba"/>
+<text x="882" y="65" fill="#467d75" font-size="11" font-weight="700" letter-spacing="2">03 / IMPLEMENT</text>
+<text x="882" y="99" fill="#203650" font-size="23" font-weight="700">Pattern detail</text>
+<text x="882" y="132" fill="#60748b" font-size="15">Code + tests + trade-offs</text>
+<text x="600" y="202" text-anchor="middle" fill="#75899d" font-size="12" letter-spacing=".8">KNOWN LANGUAGE + PATTERN? JUMP STRAIGHT TO LEVEL 03.</text>
+</g></svg>

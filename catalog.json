@@ -1,0 +1,659 @@
+{
+  "name": "ric-design-patterns-skill",
+  "version": "0.1.0",
+  "counts": {
+    "patterns": 23,
+    "languages": 12,
+    "details": 276
+  },
+  "languages": {
+    "java": {
+      "name": "Java",
+      "aliases": [
+        "java",
+        "jvm"
+      ],
+      "index": "references/java/README.md",
+      "patterns": {
+        "factory-method": "references/java/factory-method.md",
+        "abstract-factory": "references/java/abstract-factory.md",
+        "builder": "references/java/builder.md",
+        "prototype": "references/java/prototype.md",
+        "singleton": "references/java/singleton.md",
+        "adapter": "references/java/adapter.md",
+        "bridge": "references/java/bridge.md",
+        "composite": "references/java/composite.md",
+        "decorator": "references/java/decorator.md",
+        "facade": "references/java/facade.md",
+        "flyweight": "references/java/flyweight.md",
+        "proxy": "references/java/proxy.md",
+        "chain-of-responsibility": "references/java/chain-of-responsibility.md",
+        "command": "references/java/command.md",
+        "interpreter": "references/java/interpreter.md",
+        "iterator": "references/java/iterator.md",
+        "mediator": "references/java/mediator.md",
+        "memento": "references/java/memento.md",
+        "observer": "references/java/observer.md",
+        "state": "references/java/state.md",
+        "strategy": "references/java/strategy.md",
+        "template-method": "references/java/template-method.md",
+        "visitor": "references/java/visitor.md"
+      }
+    },
+    "csharp": {
+      "name": "C#",
+      "aliases": [
+        "c#",
+        "csharp",
+        "cs",
+        "dotnet",
+        ".net"
+      ],
+      "index": "references/csharp/README.md",
+      "patterns": {
+        "factory-method": "references/csharp/factory-method.md",
+        "abstract-factory": "references/csharp/abstract-factory.md",
+        "builder": "references/csharp/builder.md",
+        "prototype": "references/csharp/prototype.md",
+        "singleton": "references/csharp/singleton.md",
+        "adapter": "references/csharp/adapter.md",
+        "bridge": "references/csharp/bridge.md",
+        "composite": "references/csharp/composite.md",
+        "decorator": "references/csharp/decorator.md",
+        "facade": "references/csharp/facade.md",
+        "flyweight": "references/csharp/flyweight.md",
+        "proxy": "references/csharp/proxy.md",
+        "chain-of-responsibility": "references/csharp/chain-of-responsibility.md",
+        "command": "references/csharp/command.md",
+        "interpreter": "references/csharp/interpreter.md",
+        "iterator": "references/csharp/iterator.md",
+        "mediator": "references/csharp/mediator.md",
+        "memento": "references/csharp/memento.md",
+        "observer": "references/csharp/observer.md",
+        "state": "references/csharp/state.md",
+        "strategy": "references/csharp/strategy.md",
+        "template-method": "references/csharp/template-method.md",
+        "visitor": "references/csharp/visitor.md"
+      }
+    },
+    "cpp": {
+      "name": "C++",
+      "aliases": [
+        "c++",
+        "cpp",
+        "cxx",
+        "cc"
+      ],
+      "index": "references/cpp/README.md",
+      "patterns": {
+        "factory-method": "references/cpp/factory-method.md",
+        "abstract-factory": "references/cpp/abstract-factory.md",
+        "builder": "references/cpp/builder.md",
+        "prototype": "references/cpp/prototype.md",
+        "singleton": "references/cpp/singleton.md",
+        "adapter": "references/cpp/adapter.md",
+        "bridge": "references/cpp/bridge.md",
+        "composite": "references/cpp/composite.md",
+        "decorator": "references/cpp/decorator.md",
+        "facade": "references/cpp/facade.md",
+        "flyweight": "references/cpp/flyweight.md",
+        "proxy": "references/cpp/proxy.md",
+        "chain-of-responsibility": "references/cpp/chain-of-responsibility.md",
+        "command": "references/cpp/command.md",
+        "interpreter": "references/cpp/interpreter.md",
+        "iterator": "references/cpp/iterator.md",
+        "mediator": "references/cpp/mediator.md",
+        "memento": "references/cpp/memento.md",
+        "observer": "references/cpp/observer.md",
+        "state": "references/cpp/state.md",
+        "strategy": "references/cpp/strategy.md",
+        "template-method": "references/cpp/template-method.md",
+        "visitor": "references/cpp/visitor.md"
+      }
+    },
+    "go": {
+      "name": "Go",
+      "aliases": [
+        "go",
+        "golang"
+      ],
+      "index": "references/go/README.md",
+      "patterns": {
+        "factory-method": "references/go/factory-method.md",
+        "abstract-factory": "references/go/abstract-factory.md",
+        "builder": "references/go/builder.md",
+        "prototype": "references/go/prototype.md",
+        "singleton": "references/go/singleton.md",
+        "adapter": "references/go/adapter.md",
+        "bridge": "references/go/bridge.md",
+        "composite": "references/go/composite.md",
+        "decorator": "references/go/decorator.md",
+        "facade": "references/go/facade.md",
+        "flyweight": "references/go/flyweight.md",
+        "proxy": "references/go/proxy.md",
+        "chain-of-responsibility": "references/go/chain-of-responsibility.md",
+        "command": "references/go/command.md",
+        "interpreter": "references/go/interpreter.md",
+        "iterator": "references/go/iterator.md",
+        "mediator": "references/go/mediator.md",
+        "memento": "references/go/memento.md",
+        "observer": "references/go/observer.md",
+        "state": "references/go/state.md",
+        "strategy": "references/go/strategy.md",
+        "template-method": "references/go/template-method.md",
+        "visitor": "references/go/visitor.md"
+      }
+    },
+    "rust": {
+      "name": "Rust",
+      "aliases": [
+        "rust",
+        "rs"
+      ],
+      "index": "references/rust/README.md",
+      "patterns": {
+        "factory-method": "references/rust/factory-method.md",
+        "abstract-factory": "references/rust/abstract-factory.md",
+        "builder": "references/rust/builder.md",
+        "prototype": "references/rust/prototype.md",
+        "singleton": "references/rust/singleton.md",
+        "adapter": "references/rust/adapter.md",
+        "bridge": "references/rust/bridge.md",
+        "composite": "references/rust/composite.md",
+        "decorator": "references/rust/decorator.md",
+        "facade": "references/rust/facade.md",
+        "flyweight": "references/rust/flyweight.md",
+        "proxy": "references/rust/proxy.md",
+        "chain-of-responsibility": "references/rust/chain-of-responsibility.md",
+        "command": "references/rust/command.md",
+        "interpreter": "references/rust/interpreter.md",
+        "iterator": "references/rust/iterator.md",
+        "mediator": "references/rust/mediator.md",
+        "memento": "references/rust/memento.md",
+        "observer": "references/rust/observer.md",
+        "state": "references/rust/state.md",
+        "strategy": "references/rust/strategy.md",
+        "template-method": "references/rust/template-method.md",
+        "visitor": "references/rust/visitor.md"
+      }
+    },
+    "python": {
+      "name": "Python",
+      "aliases": [
+        "python",
+        "py",
+        "python3"
+      ],
+      "index": "references/python/README.md",
+      "patterns": {
+        "factory-method": "references/python/factory-method.md",
+        "abstract-factory": "references/python/abstract-factory.md",
+        "builder": "references/python/builder.md",
+        "prototype": "references/python/prototype.md",
+        "singleton": "references/python/singleton.md",
+        "adapter": "references/python/adapter.md",
+        "bridge": "references/python/bridge.md",
+        "composite": "references/python/composite.md",
+        "decorator": "references/python/decorator.md",
+        "facade": "references/python/facade.md",
+        "flyweight": "references/python/flyweight.md",
+        "proxy": "references/python/proxy.md",
+        "chain-of-responsibility": "references/python/chain-of-responsibility.md",
+        "command": "references/python/command.md",
+        "interpreter": "references/python/interpreter.md",
+        "iterator": "references/python/iterator.md",
+        "mediator": "references/python/mediator.md",
+        "memento": "references/python/memento.md",
+        "observer": "references/python/observer.md",
+        "state": "references/python/state.md",
+        "strategy": "references/python/strategy.md",
+        "template-method": "references/python/template-method.md",
+        "visitor": "references/python/visitor.md"
+      }
+    },
+    "typescript": {
+      "name": "TypeScript",
+      "aliases": [
+        "typescript",
+        "ts"
+      ],
+      "index": "references/typescript/README.md",
+      "patterns": {
+        "factory-method": "references/typescript/factory-method.md",
+        "abstract-factory": "references/typescript/abstract-factory.md",
+        "builder": "references/typescript/builder.md",
+        "prototype": "references/typescript/prototype.md",
+        "singleton": "references/typescript/singleton.md",
+        "adapter": "references/typescript/adapter.md",
+        "bridge": "references/typescript/bridge.md",
+        "composite": "references/typescript/composite.md",
+        "decorator": "references/typescript/decorator.md",
+        "facade": "references/typescript/facade.md",
+        "flyweight": "references/typescript/flyweight.md",
+        "proxy": "references/typescript/proxy.md",
+        "chain-of-responsibility": "references/typescript/chain-of-responsibility.md",
+        "command": "references/typescript/command.md",
+        "interpreter": "references/typescript/interpreter.md",
+        "iterator": "references/typescript/iterator.md",
+        "mediator": "references/typescript/mediator.md",
+        "memento": "references/typescript/memento.md",
+        "observer": "references/typescript/observer.md",
+        "state": "references/typescript/state.md",
+        "strategy": "references/typescript/strategy.md",
+        "template-method": "references/typescript/template-method.md",
+        "visitor": "references/typescript/visitor.md"
+      }
+    },
+    "javascript": {
+      "name": "JavaScript",
+      "aliases": [
+        "javascript",
+        "js",
+        "node",
+        "nodejs",
+        "ecmascript"
+      ],
+      "index": "references/javascript/README.md",
+      "patterns": {
+        "factory-method": "references/javascript/factory-method.md",
+        "abstract-factory": "references/javascript/abstract-factory.md",
+        "builder": "references/javascript/builder.md",
+        "prototype": "references/javascript/prototype.md",
+        "singleton": "references/javascript/singleton.md",
+        "adapter": "references/javascript/adapter.md",
+        "bridge": "references/javascript/bridge.md",
+        "composite": "references/javascript/composite.md",
+        "decorator": "references/javascript/decorator.md",
+        "facade": "references/javascript/facade.md",
+        "flyweight": "references/javascript/flyweight.md",
+        "proxy": "references/javascript/proxy.md",
+        "chain-of-responsibility": "references/javascript/chain-of-responsibility.md",
+        "command": "references/javascript/command.md",
+        "interpreter": "references/javascript/interpreter.md",
+        "iterator": "references/javascript/iterator.md",
+        "mediator": "references/javascript/mediator.md",
+        "memento": "references/javascript/memento.md",
+        "observer": "references/javascript/observer.md",
+        "state": "references/javascript/state.md",
+        "strategy": "references/javascript/strategy.md",
+        "template-method": "references/javascript/template-method.md",
+        "visitor": "references/javascript/visitor.md"
+      }
+    },
+    "php": {
+      "name": "PHP",
+      "aliases": [
+        "php"
+      ],
+      "index": "references/php/README.md",
+      "patterns": {
+        "factory-method": "references/php/factory-method.md",
+        "abstract-factory": "references/php/abstract-factory.md",
+        "builder": "references/php/builder.md",
+        "prototype": "references/php/prototype.md",
+        "singleton": "references/php/singleton.md",
+        "adapter": "references/php/adapter.md",
+        "bridge": "references/php/bridge.md",
+        "composite": "references/php/composite.md",
+        "decorator": "references/php/decorator.md",
+        "facade": "references/php/facade.md",
+        "flyweight": "references/php/flyweight.md",
+        "proxy": "references/php/proxy.md",
+        "chain-of-responsibility": "references/php/chain-of-responsibility.md",
+        "command": "references/php/command.md",
+        "interpreter": "references/php/interpreter.md",
+        "iterator": "references/php/iterator.md",
+        "mediator": "references/php/mediator.md",
+        "memento": "references/php/memento.md",
+        "observer": "references/php/observer.md",
+        "state": "references/php/state.md",
+        "strategy": "references/php/strategy.md",
+        "template-method": "references/php/template-method.md",
+        "visitor": "references/php/visitor.md"
+      }
+    },
+    "ruby": {
+      "name": "Ruby",
+      "aliases": [
+        "ruby",
+        "rb"
+      ],
+      "index": "references/ruby/README.md",
+      "patterns": {
+        "factory-method": "references/ruby/factory-method.md",
+        "abstract-factory": "references/ruby/abstract-factory.md",
+        "builder": "references/ruby/builder.md",
+        "prototype": "references/ruby/prototype.md",
+        "singleton": "references/ruby/singleton.md",
+        "adapter": "references/ruby/adapter.md",
+        "bridge": "references/ruby/bridge.md",
+        "composite": "references/ruby/composite.md",
+        "decorator": "references/ruby/decorator.md",
+        "facade": "references/ruby/facade.md",
+        "flyweight": "references/ruby/flyweight.md",
+        "proxy": "references/ruby/proxy.md",
+        "chain-of-responsibility": "references/ruby/chain-of-responsibility.md",
+        "command": "references/ruby/command.md",
+        "interpreter": "references/ruby/interpreter.md",
+        "iterator": "references/ruby/iterator.md",
+        "mediator": "references/ruby/mediator.md",
+        "memento": "references/ruby/memento.md",
+        "observer": "references/ruby/observer.md",
+        "state": "references/ruby/state.md",
+        "strategy": "references/ruby/strategy.md",
+        "template-method": "references/ruby/template-method.md",
+        "visitor": "references/ruby/visitor.md"
+      }
+    },
+    "swift": {
+      "name": "Swift",
+      "aliases": [
+        "swift"
+      ],
+      "index": "references/swift/README.md",
+      "patterns": {
+        "factory-method": "references/swift/factory-method.md",
+        "abstract-factory": "references/swift/abstract-factory.md",
+        "builder": "references/swift/builder.md",
+        "prototype": "references/swift/prototype.md",
+        "singleton": "references/swift/singleton.md",
+        "adapter": "references/swift/adapter.md",
+        "bridge": "references/swift/bridge.md",
+        "composite": "references/swift/composite.md",
+        "decorator": "references/swift/decorator.md",
+        "facade": "references/swift/facade.md",
+        "flyweight": "references/swift/flyweight.md",
+        "proxy": "references/swift/proxy.md",
+        "chain-of-responsibility": "references/swift/chain-of-responsibility.md",
+        "command": "references/swift/command.md",
+        "interpreter": "references/swift/interpreter.md",
+        "iterator": "references/swift/iterator.md",
+        "mediator": "references/swift/mediator.md",
+        "memento": "references/swift/memento.md",
+        "observer": "references/swift/observer.md",
+        "state": "references/swift/state.md",
+        "strategy": "references/swift/strategy.md",
+        "template-method": "references/swift/template-method.md",
+        "visitor": "references/swift/visitor.md"
+      }
+    },
+    "kotlin": {
+      "name": "Kotlin",
+      "aliases": [
+        "kotlin",
+        "kt",
+        "kts"
+      ],
+      "index": "references/kotlin/README.md",
+      "patterns": {
+        "factory-method": "references/kotlin/factory-method.md",
+        "abstract-factory": "references/kotlin/abstract-factory.md",
+        "builder": "references/kotlin/builder.md",
+        "prototype": "references/kotlin/prototype.md",
+        "singleton": "references/kotlin/singleton.md",
+        "adapter": "references/kotlin/adapter.md",
+        "bridge": "references/kotlin/bridge.md",
+        "composite": "references/kotlin/composite.md",
+        "decorator": "references/kotlin/decorator.md",
+        "facade": "references/kotlin/facade.md",
+        "flyweight": "references/kotlin/flyweight.md",
+        "proxy": "references/kotlin/proxy.md",
+        "chain-of-responsibility": "references/kotlin/chain-of-responsibility.md",
+        "command": "references/kotlin/command.md",
+        "interpreter": "references/kotlin/interpreter.md",
+        "iterator": "references/kotlin/iterator.md",
+        "mediator": "references/kotlin/mediator.md",
+        "memento": "references/kotlin/memento.md",
+        "observer": "references/kotlin/observer.md",
+        "state": "references/kotlin/state.md",
+        "strategy": "references/kotlin/strategy.md",
+        "template-method": "references/kotlin/template-method.md",
+        "visitor": "references/kotlin/visitor.md"
+      }
+    }
+  },
+  "patterns": {
+    "factory-method": {
+      "name": "工厂方法",
+      "english": "Factory Method",
+      "category": "creational",
+      "aliases": [
+        "工厂方法",
+        "Factory Method",
+        "factory-method"
+      ]
+    },
+    "abstract-factory": {
+      "name": "抽象工厂",
+      "english": "Abstract Factory",
+      "category": "creational",
+      "aliases": [
+        "抽象工厂",
+        "Abstract Factory",
+        "abstract-factory"
+      ]
+    },
+    "builder": {
+      "name": "生成器（建造者）",
+      "english": "Builder",
+      "category": "creational",
+      "aliases": [
+        "生成器（建造者）",
+        "Builder",
+        "builder",
+        "生成器",
+        "建造者",
+        "构建器"
+      ]
+    },
+    "prototype": {
+      "name": "原型",
+      "english": "Prototype",
+      "category": "creational",
+      "aliases": [
+        "原型",
+        "Prototype",
+        "prototype"
+      ]
+    },
+    "singleton": {
+      "name": "单例",
+      "english": "Singleton",
+      "category": "creational",
+      "aliases": [
+        "单例",
+        "Singleton",
+        "singleton"
+      ]
+    },
+    "adapter": {
+      "name": "适配器",
+      "english": "Adapter",
+      "category": "structural",
+      "aliases": [
+        "适配器",
+        "Adapter",
+        "adapter"
+      ]
+    },
+    "bridge": {
+      "name": "桥接",
+      "english": "Bridge",
+      "category": "structural",
+      "aliases": [
+        "桥接",
+        "Bridge",
+        "bridge"
+      ]
+    },
+    "composite": {
+      "name": "组合",
+      "english": "Composite",
+      "category": "structural",
+      "aliases": [
+        "组合",
+        "Composite",
+        "composite"
+      ]
+    },
+    "decorator": {
+      "name": "装饰",
+      "english": "Decorator",
+      "category": "structural",
+      "aliases": [
+        "装饰",
+        "Decorator",
+        "decorator"
+      ]
+    },
+    "facade": {
+      "name": "外观（门面）",
+      "english": "Facade",
+      "category": "structural",
+      "aliases": [
+        "外观（门面）",
+        "Facade",
+        "facade",
+        "外观",
+        "门面"
+      ]
+    },
+    "flyweight": {
+      "name": "享元",
+      "english": "Flyweight",
+      "category": "structural",
+      "aliases": [
+        "享元",
+        "Flyweight",
+        "flyweight"
+      ]
+    },
+    "proxy": {
+      "name": "代理",
+      "english": "Proxy",
+      "category": "structural",
+      "aliases": [
+        "代理",
+        "Proxy",
+        "proxy"
+      ]
+    },
+    "chain-of-responsibility": {
+      "name": "责任链",
+      "english": "Chain of Responsibility",
+      "category": "behavioral",
+      "aliases": [
+        "责任链",
+        "Chain of Responsibility",
+        "chain-of-responsibility",
+        "职责链"
+      ]
+    },
+    "command": {
+      "name": "命令",
+      "english": "Command",
+      "category": "behavioral",
+      "aliases": [
+        "命令",
+        "Command",
+        "command"
+      ]
+    },
+    "interpreter": {
+      "name": "解释器",
+      "english": "Interpreter",
+      "category": "behavioral",
+      "aliases": [
+        "解释器",
+        "Interpreter",
+        "interpreter"
+      ]
+    },
+    "iterator": {
+      "name": "迭代器",
+      "english": "Iterator",
+      "category": "behavioral",
+      "aliases": [
+        "迭代器",
+        "Iterator",
+        "iterator"
+      ]
+    },
+    "mediator": {
+      "name": "中介者",
+      "english": "Mediator",
+      "category": "behavioral",
+      "aliases": [
+        "中介者",
+        "Mediator",
+        "mediator"
+      ]
+    },
+    "memento": {
+      "name": "备忘录",
+      "english": "Memento",
+      "category": "behavioral",
+      "aliases": [
+        "备忘录",
+        "Memento",
+        "memento",
+        "快照恢复"
+      ]
+    },
+    "observer": {
+      "name": "观察者",
+      "english": "Observer",
+      "category": "behavioral",
+      "aliases": [
+        "观察者",
+        "Observer",
+        "observer",
+        "订阅通知"
+      ]
+    },
+    "state": {
+      "name": "状态",
+      "english": "State",
+      "category": "behavioral",
+      "aliases": [
+        "状态",
+        "State",
+        "state",
+        "状态机"
+      ]
+    },
+    "strategy": {
+      "name": "策略",
+      "english": "Strategy",
+      "category": "behavioral",
+      "aliases": [
+        "策略",
+        "Strategy",
+        "strategy",
+        "算法替换"
+      ]
+    },
+    "template-method": {
+      "name": "模板方法",
+      "english": "Template Method",
+      "category": "behavioral",
+      "aliases": [
+        "模板方法",
+        "Template Method",
+        "template-method",
+        "流程骨架"
+      ]
+    },
+    "visitor": {
+      "name": "访问者",
+      "english": "Visitor",
+      "category": "behavioral",
+      "aliases": [
+        "访问者",
+        "Visitor",
+        "visitor",
+        "双分派"
+      ]
+    }
+  }
+}
