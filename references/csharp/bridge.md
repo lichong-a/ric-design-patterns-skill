@@ -108,7 +108,7 @@ dotnet run --project examples/csharp/bridge/Example.csproj --configuration Relea
 
 期望标准输出：`OK bridge`。任何内嵌断言失败都应导致非零退出；Python 不要使用 `-O` 禁用断言，Swift 不要使用 `-Ounchecked`。
 
-**当前源码状态：待验证（无匹配当前源码哈希的运行记录）。** [完整验证记录](../../docs/VERIFICATION.md)。源码 SHA-256：`f6249bb737922fed843aad3864553c8009e78ece1496f9a76c602b4dd8534e8b`。
+**当前源码状态：已通过编译/运行与内嵌断言。** [完整验证记录](../../docs/VERIFICATION.md)。源码 SHA-256：`f6249bb737922fed843aad3864553c8009e78ece1496f9a76c602b4dd8534e8b`。
 
 ## 收益与代价
 

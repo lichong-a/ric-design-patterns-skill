@@ -87,7 +87,7 @@ rustc --edition=2021 main.rs -o demo
 
 期望标准输出：`OK chain-of-responsibility`。任何内嵌断言失败都应导致非零退出；Python 不要使用 `-O` 禁用断言，Swift 不要使用 `-Ounchecked`。
 
-**当前源码状态：待验证（无匹配当前源码哈希的运行记录）。** [完整验证记录](../../docs/VERIFICATION.md)。源码 SHA-256：`dee4b3cd5be9cdbcf2b7867d0422eaba8979c5aa5cff0eb2409a76fe8bf1c74f`。
+**当前源码状态：已通过编译/运行与内嵌断言。** [完整验证记录](../../docs/VERIFICATION.md)。源码 SHA-256：`dee4b3cd5be9cdbcf2b7867d0422eaba8979c5aa5cff0eb2409a76fe8bf1c74f`。
 
 ## 收益与代价
 

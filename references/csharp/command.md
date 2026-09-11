@@ -116,7 +116,7 @@ dotnet run --project examples/csharp/command/Example.csproj --configuration Rele
 
 期望标准输出：`OK command`。任何内嵌断言失败都应导致非零退出；Python 不要使用 `-O` 禁用断言，Swift 不要使用 `-Ounchecked`。
 
-**当前源码状态：待验证（无匹配当前源码哈希的运行记录）。** [完整验证记录](../../docs/VERIFICATION.md)。源码 SHA-256：`47a21e3c02d1b131bdc8fb5eacdea4a506d923bea978f51101bfb7b5ea4bca9e`。
+**当前源码状态：已通过编译/运行与内嵌断言。** [完整验证记录](../../docs/VERIFICATION.md)。源码 SHA-256：`47a21e3c02d1b131bdc8fb5eacdea4a506d923bea978f51101bfb7b5ea4bca9e`。
 
 ## 收益与代价
 

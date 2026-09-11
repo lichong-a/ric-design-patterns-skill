@@ -2,15 +2,15 @@
 
 本文件由源码哈希和实际运行记录生成，不凭作者意图把示例标成已通过。
 
-**匹配当前源码且已通过：230/276。** 最后记录时间：`2026-09-11T02:22:59+00:00`。
+**匹配当前源码且已通过：276/276。** 最后记录时间：`2026-09-11T03:04:06+00:00`。
 
 | 语言 | 通过/示例 | 实测工具链（不是版本推荐） | 环境 |
 |---|---:|---|---|
 | [Java](../references/java/README.md) | 23/23 | javac 21.0.11; openjdk version "21.0.11" 2026-04-21 | Local / Linux x86_64 |
-| [C#](../references/csharp/README.md) | 0/23 | 尚无运行记录 | 未执行 |
+| [C#](../references/csharp/README.md) | 23/23 | 10.0.400 | GitHub Actions / Linux x86_64 |
 | [C++](../references/cpp/README.md) | 23/23 | g++ (Debian 14.2.0-19) 14.2.0 | Local / Linux x86_64 |
 | [Go](../references/go/README.md) | 23/23 | go version go1.23.2 linux/amd64 | Local / Linux x86_64 |
-| [Rust](../references/rust/README.md) | 0/23 | 尚无运行记录 | 未执行 |
+| [Rust](../references/rust/README.md) | 23/23 | rustc 1.70.0 (90c541806 2023-05-31) | GitHub Actions / Linux x86_64 |
 | [Python](../references/python/README.md) | 23/23 | Python 3.13.5 | Local / Linux x86_64 |
 | [TypeScript](../references/typescript/README.md) | 23/23 | Version 5.8.3; v22.16.0 | Local / Linux x86_64 |
 | [JavaScript](../references/javascript/README.md) | 23/23 | v22.16.0 | Local / Linux x86_64 |

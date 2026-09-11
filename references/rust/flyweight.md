@@ -89,7 +89,7 @@ rustc --edition=2021 main.rs -o demo
 
 期望标准输出：`OK flyweight`。任何内嵌断言失败都应导致非零退出；Python 不要使用 `-O` 禁用断言，Swift 不要使用 `-Ounchecked`。
 
-**当前源码状态：待验证（无匹配当前源码哈希的运行记录）。** [完整验证记录](../../docs/VERIFICATION.md)。源码 SHA-256：`2aed95fd1b36ee0500266038f754fa5e53e1a34e35fe2707a037d4f2f758f6a8`。
+**当前源码状态：已通过编译/运行与内嵌断言。** [完整验证记录](../../docs/VERIFICATION.md)。源码 SHA-256：`2aed95fd1b36ee0500266038f754fa5e53e1a34e35fe2707a037d4f2f758f6a8`。
 
 ## 收益与代价
 

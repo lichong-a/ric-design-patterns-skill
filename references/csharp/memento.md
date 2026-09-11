@@ -108,7 +108,7 @@ dotnet run --project examples/csharp/memento/Example.csproj --configuration Rele
 
 期望标准输出：`OK memento`。任何内嵌断言失败都应导致非零退出；Python 不要使用 `-O` 禁用断言，Swift 不要使用 `-Ounchecked`。
 
-**当前源码状态：待验证（无匹配当前源码哈希的运行记录）。** [完整验证记录](../../docs/VERIFICATION.md)。源码 SHA-256：`00f64208669d9ddcb2da1143840c4a8c24999f664eab5748f3c88773b940279e`。
+**当前源码状态：已通过编译/运行与内嵌断言。** [完整验证记录](../../docs/VERIFICATION.md)。源码 SHA-256：`00f64208669d9ddcb2da1143840c4a8c24999f664eab5748f3c88773b940279e`。
 
 ## 收益与代价
 

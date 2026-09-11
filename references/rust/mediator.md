@@ -91,7 +91,7 @@ rustc --edition=2021 main.rs -o demo
 
 期望标准输出：`OK mediator`。任何内嵌断言失败都应导致非零退出；Python 不要使用 `-O` 禁用断言，Swift 不要使用 `-Ounchecked`。
 
-**当前源码状态：待验证（无匹配当前源码哈希的运行记录）。** [完整验证记录](../../docs/VERIFICATION.md)。源码 SHA-256：`410ad58d44665b7326c73d54de983279ccbb768ca7c01142ba4e057543f46455`。
+**当前源码状态：已通过编译/运行与内嵌断言。** [完整验证记录](../../docs/VERIFICATION.md)。源码 SHA-256：`410ad58d44665b7326c73d54de983279ccbb768ca7c01142ba4e057543f46455`。
 
 ## 收益与代价
 

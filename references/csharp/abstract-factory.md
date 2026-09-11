@@ -111,7 +111,7 @@ dotnet run --project examples/csharp/abstract-factory/Example.csproj --configura
 
 期望标准输出：`OK abstract-factory`。任何内嵌断言失败都应导致非零退出；Python 不要使用 `-O` 禁用断言，Swift 不要使用 `-Ounchecked`。
 
-**当前源码状态：待验证（无匹配当前源码哈希的运行记录）。** [完整验证记录](../../docs/VERIFICATION.md)。源码 SHA-256：`fd0c4880117cce8ff2505cc54ea079fc048c635063681157aa50489fb49fe822`。
+**当前源码状态：已通过编译/运行与内嵌断言。** [完整验证记录](../../docs/VERIFICATION.md)。源码 SHA-256：`fd0c4880117cce8ff2505cc54ea079fc048c635063681157aa50489fb49fe822`。
 
 ## 收益与代价
 

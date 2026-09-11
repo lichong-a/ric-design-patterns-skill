@@ -82,7 +82,7 @@ rustc --edition=2021 main.rs -o demo
 
 期望标准输出：`OK composite`。任何内嵌断言失败都应导致非零退出；Python 不要使用 `-O` 禁用断言，Swift 不要使用 `-Ounchecked`。
 
-**当前源码状态：待验证（无匹配当前源码哈希的运行记录）。** [完整验证记录](../../docs/VERIFICATION.md)。源码 SHA-256：`3f53780b3c4004bc437932dc01508dae44befa34f513ef00defbce6271650737`。
+**当前源码状态：已通过编译/运行与内嵌断言。** [完整验证记录](../../docs/VERIFICATION.md)。源码 SHA-256：`3f53780b3c4004bc437932dc01508dae44befa34f513ef00defbce6271650737`。
 
 ## 收益与代价
 

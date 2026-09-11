@@ -106,7 +106,7 @@ dotnet run --project examples/csharp/proxy/Example.csproj --configuration Releas
 
 期望标准输出：`OK proxy`。任何内嵌断言失败都应导致非零退出；Python 不要使用 `-O` 禁用断言，Swift 不要使用 `-Ounchecked`。
 
-**当前源码状态：待验证（无匹配当前源码哈希的运行记录）。** [完整验证记录](../../docs/VERIFICATION.md)。源码 SHA-256：`48b4c6a67e3e8673675b07888bdf9b2a5e2c99fc032028358fe01e3e71320d4c`。
+**当前源码状态：已通过编译/运行与内嵌断言。** [完整验证记录](../../docs/VERIFICATION.md)。源码 SHA-256：`48b4c6a67e3e8673675b07888bdf9b2a5e2c99fc032028358fe01e3e71320d4c`。
 
 ## 收益与代价
 

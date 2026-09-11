@@ -77,7 +77,7 @@ rustc --edition=2021 main.rs -o demo
 
 期望标准输出：`OK adapter`。任何内嵌断言失败都应导致非零退出；Python 不要使用 `-O` 禁用断言，Swift 不要使用 `-Ounchecked`。
 
-**当前源码状态：待验证（无匹配当前源码哈希的运行记录）。** [完整验证记录](../../docs/VERIFICATION.md)。源码 SHA-256：`acf2535ccf46daba1754213c20572c01feb972cbd4593bfb335ac1758894d560`。
+**当前源码状态：已通过编译/运行与内嵌断言。** [完整验证记录](../../docs/VERIFICATION.md)。源码 SHA-256：`acf2535ccf46daba1754213c20572c01feb972cbd4593bfb335ac1758894d560`。
 
 ## 收益与代价
 

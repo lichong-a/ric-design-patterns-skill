@@ -66,7 +66,7 @@ python3 scripts/run_examples.py --languages python --require-runtimes
 
 ## 质量与边界
 
-当前匹配源码哈希的编译/运行记录：**230/276 通过**。具体版本、未执行项与方法见 [验证记录](docs/VERIFICATION.md)，不是生产就绪或跨平台认证。
+当前匹配源码哈希的编译/运行记录：**276/276 通过**。具体版本、未执行项与方法见 [验证记录](docs/VERIFICATION.md)，不是生产就绪或跨平台认证。
 
 示例不搬用上游代码与配图；JavaScript 是本项目 TypeScript 的同源去类型版本。默认教学范围为同步、内存内行为，不自动获得事务、持久化、线程安全或安全沙箱。73 个登记来源与抽样边界见 [来源说明](docs/SOURCES.md)。
 

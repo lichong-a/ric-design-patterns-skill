@@ -86,7 +86,7 @@ rustc --edition=2021 main.rs -o demo
 
 期望标准输出：`OK memento`。任何内嵌断言失败都应导致非零退出；Python 不要使用 `-O` 禁用断言，Swift 不要使用 `-Ounchecked`。
 
-**当前源码状态：待验证（无匹配当前源码哈希的运行记录）。** [完整验证记录](../../docs/VERIFICATION.md)。源码 SHA-256：`a0a5ea1519f02ddb7ec8f9b9ab3157538c92f5e98ab4135ffbb6f9f367885cc0`。
+**当前源码状态：已通过编译/运行与内嵌断言。** [完整验证记录](../../docs/VERIFICATION.md)。源码 SHA-256：`a0a5ea1519f02ddb7ec8f9b9ab3157538c92f5e98ab4135ffbb6f9f367885cc0`。
 
 ## 收益与代价
 

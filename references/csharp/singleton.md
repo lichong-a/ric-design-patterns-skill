@@ -98,7 +98,7 @@ dotnet run --project examples/csharp/singleton/Example.csproj --configuration Re
 
 期望标准输出：`OK singleton`。任何内嵌断言失败都应导致非零退出；Python 不要使用 `-O` 禁用断言，Swift 不要使用 `-Ounchecked`。
 
-**当前源码状态：待验证（无匹配当前源码哈希的运行记录）。** [完整验证记录](../../docs/VERIFICATION.md)。源码 SHA-256：`05fe86a193ea5a27cbea2db7c0c2f8ed252a5cc9135eb30eb99a3876cdd99732`。
+**当前源码状态：已通过编译/运行与内嵌断言。** [完整验证记录](../../docs/VERIFICATION.md)。源码 SHA-256：`05fe86a193ea5a27cbea2db7c0c2f8ed252a5cc9135eb30eb99a3876cdd99732`。
 
 ## 收益与代价
 

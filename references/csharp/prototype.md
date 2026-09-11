@@ -102,7 +102,7 @@ dotnet run --project examples/csharp/prototype/Example.csproj --configuration Re
 
 期望标准输出：`OK prototype`。任何内嵌断言失败都应导致非零退出；Python 不要使用 `-O` 禁用断言，Swift 不要使用 `-Ounchecked`。
 
-**当前源码状态：待验证（无匹配当前源码哈希的运行记录）。** [完整验证记录](../../docs/VERIFICATION.md)。源码 SHA-256：`b8610600101cc63730f5dde1e6562c7c7ee9f9be142750662850efbd70e0aee5`。
+**当前源码状态：已通过编译/运行与内嵌断言。** [完整验证记录](../../docs/VERIFICATION.md)。源码 SHA-256：`b8610600101cc63730f5dde1e6562c7c7ee9f9be142750662850efbd70e0aee5`。
 
 ## 收益与代价
 

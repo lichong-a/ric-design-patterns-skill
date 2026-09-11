@@ -104,7 +104,7 @@ dotnet run --project examples/csharp/visitor/Example.csproj --configuration Rele
 
 期望标准输出：`OK visitor`。任何内嵌断言失败都应导致非零退出；Python 不要使用 `-O` 禁用断言，Swift 不要使用 `-Ounchecked`。
 
-**当前源码状态：待验证（无匹配当前源码哈希的运行记录）。** [完整验证记录](../../docs/VERIFICATION.md)。源码 SHA-256：`b64a5e71e2a2ad618a641e44a0dea4991e7cbd44b9d7900ae1b621b1b2ad34a8`。
+**当前源码状态：已通过编译/运行与内嵌断言。** [完整验证记录](../../docs/VERIFICATION.md)。源码 SHA-256：`b64a5e71e2a2ad618a641e44a0dea4991e7cbd44b9d7900ae1b621b1b2ad34a8`。
 
 ## 收益与代价
 
